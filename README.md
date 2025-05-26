@@ -154,3 +154,407 @@ Skills: OpenCV · Computer Vision
 ### 2012 - 2015: Bachelor of Science (BSC), Electrical Engineering
 
 - Computer-based Systems specialization.
+
+# Projects
+
+## 2024.03 - 2024.10: Beam CI/CD and Tests
+
+Project Overview: This project focused on establishing a Continuous Integration and Continuous Deployment (CI/CD) pipeline to streamline development and deployment processes.
+
+Created a proof of concept for the CI/CD flow, set up GitHub workflows and configurations to automate several tasks on every pull request (PR):
+
+- Set up and run a Redis database.
+- Set up and run an MQTT broker.
+- Build the repository.
+- Run the application.
+- Execute integration tests.
+
+Testing Framework
+
+- Previously, all tests were conducted manually.
+- Advocated for a shift towards automated testing, despite resistance from management.
+- Developed a framework and tools for creating integration tests, incorporating the MQTT request/response concept.
+- Integrated these tests into the CI flow, ensuring comprehensive and automated validation of services.
+
+By automating these processes and establishing a robust testing framework, the project significantly improved the efficiency and reliability of the development and deployment workflow.
+
+Skills: Integration Testing · Jest · GitHub · Redis · Mqtt
+
+## 2022.11 - 2024.10: Live 2.2
+
+Project Overview: This project involved the comprehensive restructuring and enhancement of a software platform to improve performance, scalability, and developer collaboration. The initiative focused on managing custom client logic through nano-services and transitioning to a more efficient data management system.
+
+Technical Enhancements:
+
+- Transitioned from Postgres to Redis for enhanced speed and user experience.
+- Utilized JSON schema for validating data structures specific to various organizations.
+- Developed a multi-tenant architecture to handle functions per request per customer.
+- Created development tools for custom feature functions and a testing tool for automatic service validation.
+
+Team Collaboration and Management:
+
+- Mediated conflicts between management and development teams, as well as among developers, to foster effective teamwork.
+- Participated in interviews and onboarding processes for new team members.
+- Mentored junior developers, particularly those involved in the admin platform, ensuring a smooth takeover of responsibilities.
+- Managed 25-30 repositories, overseeing their versions and coordinating tasks for refactoring and updating the product.
+
+Project Leadership and Strategy:
+
+- Held discussions with the CEO regarding resource needs for expansion.
+- Took responsibility for all backend-related services, setting development conventions, and creating tools to support these services.
+- Engaged in system design and architectural decisions to ensure the platform’s robustness and scalability.
+
+Through these efforts, the project not only enhanced the technical infrastructure of the platform but also improved team dynamics and streamlined development processes, setting a strong foundation for future growth and scalability.
+
+Skills: Multi-Tenant Management · GitFlow · React · API Development · JSON · Schema · Integration Testing · B2B2C · NestJS · Redis · Open API · REST APIs · Git · TypeScript · React.js
+
+## 2022.04 - 2024.03: Evolution of Location Service and Geofence Management
+
+The project started with the development of a central location base storage (CLBS) system to manage IoT device location data. Initially, locations were stored as GeoJSON in MongoDB, transmitted via HTTP, and retrieved by clients to display on maps. This setup was inefficient for real-time tracking and lacked advanced geofencing features.
+
+Key Milestones
+
+1. Introduction of Central Location Service
+
+   - Locations were stored in Redis with geo hashes for geospatial searches.
+   - Data was managed as GeoJSON features, but handling multiple sources was complex and error-prone.
+   - Limitations included inefficient queries, lack of polygon support, and absence of real-time geofence event generation.
+
+2. Refactoring for Real-Time Efficiency
+
+   - A new service decoupled location processing, improving scalability.
+   - RediSearch enabled JSON-based queries with polygon support.
+   - Tile38, a specialized geospatial database, was integrated for real-time geofencing, alerts, and MQTT-based triggers.
+
+3. Optimization and Simplification
+   - Redundant data storage was replaced by meta indices, reducing overhead.
+   - Geofence management was transitioned to Tile38, enabling efficient dynamic geofences like real-time bus tracking.
+   - Legacy systems, including MongoDB and Redis-based geoqueries, were phased out.
+
+Key Achievements
+
+- Real-Time Processing: Direct device-to-service communication enhanced speed.
+- Scalable Geofence Management: Tile38 supported advanced geospatial queries and dynamic geofences.
+- Simplified Architecture: Eliminated legacy dependencies and redundant data handling.
+- Stateful Geofences: Partial implementation of time-based conditions for geofence states using scheduled tasks.
+
+Outcomes
+This evolution transformed the location service into a robust, real-time solution capable of supporting complex IoT ecosystems and advanced geofencing requirements.
+
+Skills: Node.js · NestJS · JSON · GeoJSON · Redis · Tile38 · Geofencing · Mqtt · Hypertext Transfer Protocol (HTTP) · WebSocket · MongoDB
+
+## 2023.11 - 2024.01: Horizontal Scaling
+
+Project Overview: This project aimed to enhance the scalability of services through horizontal scaling, achieved in two main phases with distinct approaches.
+
+First Version - The initial approach involved:
+
+- Implementing message queues (using npm bull) between the controller and service layers.
+- Splitting all applications into separate controllers and services.
+- Setting up queues between these two parts, effectively doubling the number of running application instances.
+
+Second Version - The second phase simplified the architecture by:
+
+- Dropping the concept of running separate controllers and services.
+- Using MQTT directly for load balancing, utilizing shared subscriptions of MQTT v5.
+- Simplifying the codebase significantly.
+- Employing the round-robin algorithm as the sole method for load balancing.
+
+Skills: Message Queue · Mqtt · Load Balancing
+
+## 2024.04 - 2023.07: Client Code Reduction
+
+Project Overview: This project aimed to standardize the programming language across all services to enhance efficiency and maintainability. Initially, various services were written in plain JavaScript, which led to inconsistent data structures and interfaces.
+
+Transition to TypeScript: By transitioning all services to TypeScript, the project introduced a more robust development environment that allowed for better design of data structures and interfaces, enabling a form of test-driven development. Type definitions were created and shared between the server and client using a common model types npm package, ensuring consistency across different parts of the application.
+
+Migration to React Native: Given budget constraints, which precluded hiring separate developers for JavaScript, Java (Android), and Swift (iOS), the project explored migrating to React Native. This approach aimed to unify the technology stack (server, database, browser, and mobile clients) under TypeScript. The proof of concept for React Native demonstrated the potential to speed up development by sharing code across different platforms and reducing the need for a large team of specialized developers.Project Overview: This project aimed to standardize the programming language across all services to enhance efficiency and maintainability. Initially, various services were written in plain JavaScript, which led to inconsistent data structures and interfaces. Transition to TypeScript: By transitioning all services to TypeScript, the project introduced a more robust development environment that allowed for better design of data structures and interfaces, enabling a form of test-driven development. Type definitions were created and shared between the server and client using a common model types npm package, ensuring consistency across different parts of the application. Migration to React Native: Given budget constraints, which precluded hiring separate developers for JavaScript, Java (Android), and Swift (iOS), the project explored migrating to React Native. This approach aimed to unify the technology stack (server, database, browser, and mobile clients) under TypeScript. The proof of concept for React Native demonstrated the potential to speed up development by sharing code across different platforms and reducing the need for a large team of specialized developers.
+
+Skills: React · npm · JavaScript · TypeScript
+
+## 2023.01 - 2023.06: Programmable Admin Platform
+
+Project Summary:
+
+- Admin Client: A thin React client that loads configuration from the server to create the admin editors.
+- Admin Editors: A set of editors to edit data from different databases.
+- Configuration Database: Editor- and nano-service configurations, are stored here.
+- Nano-Services: Each editor creates a new workflow (nano-service) that communicates in real-time with its editor.
+- UI Modifications: Workflow (nano-service) on the backend can modify the UI by sending requests.
+- Actions: A nano-service mechanism called action is running on the React side.
+- Nano-Service Editor: Configurations, workflows, and actions can be created, tested, and debugged here.
+
+Skills: GitFlow · React · JSON · Syncfusion · Redis · Mqtt · Git · TypeScript · Nanoservices
+
+## 2022.08 - 2023.02: Nano-Service Engine and Editor
+
+Project Overview: The project focuses on improving the workflow development strategy for Beam, a platform designed to enable cooperation between organizations, users, and IoT devices within a B2B2C model. Beam aims to provide core services through a chat-based application, leveraging business logic to connect various stakeholders. However, there are challenges and critiques around the previous workflow design, primarily concerning its understandability and effectiveness for developers.
+
+Situation: Beam's strategy is not to develop applications itself but rather to offer services to third-party developers and end-user organizations. Currently, Beam is developing an application to test core functionalities and showcase platform capabilities. There is internal debate about the platform's construction, with differing views on whether to use an SDK or API-based approach for third-party development. The applications currently in use are not sufficiently generalized to meet varying customer requirements, necessitating a more adaptable solution.
+
+Challenges and Concerns:
+
+1. The complexity and limited control of the previous workflow design.
+2. The architecture is difficult for even in-house developers to understand, leading to suboptimal solutions.
+3. The existing development and debugging tools for workflows are seen as less effective compared to traditional IDE toolchains.
+
+Achievements and Future Proposals:
+
+1. Separation of core backend functions and business logic through workflows.
+2. Development of a web editor and actionflow logic for managing application and organization-specific UI scripts.
+3. Introduction of TypeScript (TS) support in the workflow and actionflow IDE.
+4. Testing and performance improvements for the workflow server, enabling the management of thousands of active workflows.
+
+Skills: GitFlow · Microservices · JSON · NestJS · Redis · Git · TypeScript · Nanoservices
+
+## 2021.11 - 2022.11: Live 2.0
+
+Refactoring and Modularization: The project began by separating the responsibilities of each microservice to ensure efficient and scalable development. Responsibilities were divided so that each database was accessed and managed by a single service, removing global database queries. Additionally, the logical layers within each microservice were separated into controller, service, core, and database layers.
+
+Transition to Microservices: Following a comprehensive redesign of the product, the previous monolithic structure was replaced with a microservices architecture. NestJS was chosen for running these microservices, providing a cohesive and scalable structure for backend services. The adoption of a microservices approach allowed for modular and independent deployment of services, enhancing system resilience and flexibility.
+
+Modernization Efforts: In collaboration with a seasoned system architect, the project aimed to modernize the technology stack and optimize service delivery. TypeORM was leveraged for seamless data management and object-relational mapping, while React and TypeScript were used to develop robust client-side applications.
+
+Server-Side and Backend Improvements: The server-side development was powered by NestJS, offering a rich ecosystem for building scalable applications. The backend was orchestrated on the Node.js runtime, known for its non-blocking, event-driven architecture, ensuring the system could handle high-throughput requirements effectively.
+
+Skills: Microservices · TypeORM · React · API Development · JSON · Node.js · NoSQL · Internet of Things (IoT) · JavaScript · NestJS · Open API · REST APIs · Git · PostgreSQL
+
+## 2021.09 - 2022.09: Scalable Multi-Tenant Service for a B2B2C Company
+
+The project addressed a critical scalability issue in a B2B2C company, which initially created a separate repository for every customer. This approach led to exponential increases in development, maintenance, and deployment times, making it unsustainable.
+
+Problem:
+
+- Each new customer required a dedicated repository.
+- Growing complexity slowed development and deployment.
+- Maintenance became increasingly resource-intensive.
+
+Solution:
+A multi-tenant architecture was implemented to enable multiple customers to use a single service while maintaining distinct setups. Key steps included:
+
+1. Initial Multi-Tenant Attempt
+   - Explored NestJs multi-tenancy, which created new service objects per request.
+   - While functional, this approach led to high RAM usage and slower response times.
+2. Optimized Multi-Tenant Design
+   - Preloaded all customer configurations during service startup.
+   - Clients specified their customer ID in MQTT request topics to enable tailored setups.
+   - This reduced resource usage and improved response times.
+3. Custom Business Logic for Customers
+   - Developed a "nano-service" engine and editor to create, store, and assign workflows.
+   - Allowed customers to have unique workflows within the same shared service.
+
+Key Achievements:
+
+- Scalability: A single multi-tenant service replaced individual customer repositories.
+- Performance: Preloaded configurations and streamlined MQTT communication reduced response times.
+- Flexibility: The nano-service engine enabled customer-specific workflows without duplicating services.
+- Efficiency: Maintenance and deployment times were significantly reduced.
+
+Outcomes:
+The project delivered a scalable, efficient multi-tenant architecture, dramatically improving speed and operational efficiency while enabling customized workflows for diverse customer needs.
+
+Skills: Multi-Tenant Management · Node.js · NestJS · Mqtt · Microservices · Nanoservices · Configuration Management · B2B2C · TypeScript · JavaScript · Redis · PostgreSQL
+
+## 2021.11 - 2022.06: Central User Database
+
+Project Overview: This project aimed to address the issues of data redundancy and disorganization in the previous system. The original setup suffered from inefficient storage utilization due to multiple databases managed by different services, which were not coherently designed. To resolve these issues, the project focused on restructuring the user data architecture and transitioning from MongoDB to PostgreSQL, and eventually to Redis, for enhanced efficiency.
+
+Challenges and Solutions: The redundancy in user data was introduced during the initial version of the system, where data was dispersed across multiple databases. The main goal was to centralize this user data into a single, centrally managed database to streamline operations and improve performance. PostgreSQL was chosen over other options like MySQL due to its better fit for the project's needs. The transition from a NoSQL (MongoDB) to an SQL (PostgreSQL) database required introducing a new data structure, where documents were split into well-designed tables. This restructuring also created opportunities for new features and enhanced the system's overall efficiency.
+
+Technical Evolution: The project explored moving core business logic into SQL embedded functions to leverage PostgreSQL's capabilities. Additionally, Redis was adopted later on to further improve efficiency. A significant aspect of this transition was the focus on creating a very fast core service to manage the centralized user database. The introduction of a new data architecture and the shift to SQL databases marked a critical step in optimizing the system's performance and ensuring more organized data management.
+
+Skills: GitFlow · TypeORM · API Development · JSON · Node.js · NoSQL · JavaScript · NestJS · Open API · REST APIs · Git · PostgreSQL · SQL
+
+## 2022.01 - 2022.04: Core Packages
+
+Project Overview: This project aimed to eliminate code duplication and improve scalability by restructuring the product into packages. Initially, the product contained significant code redundancy, with separate repositories created for each customer, which complicated maintenance and hindered scalability.
+
+Refactoring Efforts: The solution involved creating an npm Angular module library, extracting different modules so that main applications could selectively utilize them. This approach was mirrored on the backend with an npm library comprising NestJS modules used by various services connected to Angular applications.
+
+Introduction of Microservices: Following a complete product redesign, the initial repositories and packages were abandoned in favor of microservices with distinct functions. A core npm package was established to consolidate all essential tools used by these microservices. The core package's version number indicated the overall product version, ensuring consistency.
+
+Further Modularization: As the project evolved, the core package was eventually divided into multiple packages. One package retained core functions while others extracted data model interfaces, schemas, and types, facilitating shared interface definitions across both backend and frontend. This modularization ensured better maintainability, scalability, and efficient development processes.
+
+By refactoring the product into well-defined packages and introducing microservices, the project significantly improved the architecture, making it more scalable and easier to maintain.
+
+Skills: GitFlow · React · npm · Angular · NestJS · Git · TypeScript
+
+## 2020.08 - 2021.03: Admin Platform
+
+Project Overview: The project revolves around the software development and refinement of an administrative platform initially developed at a rapid pace. This swift development necessitated a comprehensive phase of debugging and refinement to ensure system stability and functionality. Alongside this, customer-driven enhancements were identified and integrated into the existing system to meet user needs and expectations.
+
+Development and Enhancements: A significant aspect of the project was the creation of a comprehensive software developers handbook. This handbook was designed to aid new developers in onboarding smoothly and established crucial standards such as code style, commit message, and coding conventions. The introduction of socket communication marked a technical evolution, replacing the traditional HTTP communication method and enhancing system efficiency.
+
+Stakeholder Collaboration: Throughout the project, there was regular and close collaboration with the CEO, who conveyed feature requests from customers. These meetings, held several times a week, ensured that customer feedback was promptly addressed and integrated into the platform. By providing estimated timeframes (ETAs) and continuous feedback on these requests, the development process remained aligned with customer needs and business goals.
+
+Project Outcomes: This structured approach to refining and enhancing the administrative platform not only improved its functionality and user experience but also established a robust framework for future development. The combination of rigorous debugging, systematic documentation, and responsive integration of customer feedback set the foundation for a scalable and efficient administrative platform.
+
+Skills: GitFlow · API Development · JSON · MongoDB · Node.js · NoSQL · Angular · Internet of Things (IoT) · JavaScript · NestJS · Open API · REST APIs · Git · React.js
+
+## 2019.03 - 2020.08: Google Ads Exporter
+
+The company required a consolidated view of its advertising campaign performance, encompassing both the expenditure and conversion metrics. To facilitate this, I developed a Google Script that executes on a scheduled basis—daily, weekly, or monthly—on ads.google.com. This script is designed to aggregate the pertinent data regarding ad campaigns and systematically record it into a designated Google Sheet.
+
+Skills: Google Ads · Data Analytics · Google Apps Script · JavaScript · Git · Data Science
+
+## 2019.11 - 2019.12: Landing page for a customer
+
+Skills: React · Node.js · JavaScript · Git · Cascading Style Sheets (CSS) · HTML
+
+## 2019.09 - 2019.10: Optimizing the website of a customer
+
+Project Overview: This project aimed to improve the efficiency and performance of a customer's site by addressing issues with server-side rendering (SSR) React technology.
+
+Problem Identification: The original implementation of SSR React was misconfigured, causing the entire application to reload with every page navigation. This misconfiguration negated the benefits of single-page application (SPA) and server-side rendering, leading to suboptimal performance.
+
+Solutions and Improvements:
+
+- Fixed the SSR React implementation to ensure proper functionality, maintaining the benefits of SPA and SSR without unnecessary full-page reloads.
+- Transitioned to the Next.js framework, enabling static rendering of pages, which further enhanced the site's speed and performance.
+
+By resolving the initial misconfiguration and leveraging Next.js for static rendering, the project successfully optimized the site's performance, delivering a faster and more efficient user experience.
+
+Skills: Next.js
+
+## 2019.01 - 2019.07: Landing Page of Programming School
+
+Project Objective:
+The aim was to transition from a WordPress platform to a proprietary application. A designer had laid the groundwork with the creation of fundamental HTML, CSS, and JavaScript files to establish the visual design, along with minimal server-side logic for page rendering.
+
+Implemented Solution:
+I successfully migrated all existing functionalities from the legacy site to the new application, which included additional subpages, dynamic content features, localization capabilities, and database integration. I also implemented UTM tracking for marketing analytics. To optimize user experience and ensure effective deployment, I conducted A/B testing for certain features, establishing an experimental environment for this purpose. Final refinements were made to enhance site speed, with a focus on improving search engine optimization (SEO). Ultimately, the entire site was converted into a static format to further boost SEO performance during production.
+
+Skills: A/B Testing · Node.js · JavaScript · Git · Cascading Style Sheets (CSS) · HTML
+
+## 2019.04 - 2019.06: Automatic Email Reports (triggers)
+
+Project Synopsis:
+The company aimed to engage users by sending automated reminders to encourage product usage, specifically for ongoing learning activities. The strategy involved dispatching tailored reports on a weekly basis, as well as reports reflecting the user’s activities from the previous day and from a week prior.
+
+Technical Execution:
+I developed the server-side logic required to support this engagement initiative, complemented by designing the HTML email templates. The system was programmed to execute on a daily and weekly schedule, intelligently querying the database for users based on their recent activity—whether they were active the day before, in the last week, or precisely seven days ago. Upon identifying the relevant users, the process dynamically compiled personalized emails detailing their recent interactions with the product and dispatched these communications accordingly.
+
+Skills: JSON · MongoDB · Node.js · NoSQL · JavaScript · Git
+
+## 2019.03 - 2019.04: Facebook Ads Exporter
+
+Project Overview:
+The objective was to replicate the functionality of a Google Ads data exporter, with the focus shifted to extracting data from Facebook Ads. The end goal was to achieve a similar output format in the spreadsheet as that of the Google Ads exporter.
+
+Solution Development:
+I identified an open-source tool that aligned closely with our requirements. After forking the repository, I customized the solution to fit our specific use case, ensuring seamless integration and data export from Facebook Ads into our desired spreadsheet format.
+
+Skills: Data Analytics · Google Apps Script · Git · Facebook Ads · Data Science · Google Sheets
+
+## 2019.03 - 2019.04: Google Analytics Dashboard
+
+Project Summary:
+The company possessed a wealth of data that was underutilized. My role was to organize this data effectively, enabling the company to harness it for informed decision-making processes.
+
+Action Taken:
+I established a Google Analytics account to systematically gather pertinent data. Additionally, I formulated and standardized the usage of UTM tags to ensure consistent and meaningful data collection practices.
+
+Skills: Data Analytics · Data Science
+
+## 2019.01 - 2019.03: Badges (gamification)
+
+Project Context:
+The company aimed to enhance user engagement within their application by introducing a gamification feature. They decided to implement a badge system as the initial step towards this goal. The visual assets and designs for the badges were pre-defined and provided to me.
+
+Technical Contribution:
+My primary focus was on developing the server-side logic responsible for the criteria-based unlocking of badges. This involved creating algorithms that tracked user achievements and unlocked badges accordingly. Additionally, I addressed minor client-side challenges to ensure a seamless integration of the badge system into the user interface.
+
+Skills: GitFlow · API Development · JSON · MongoDB · Node.js · NoSQL · JavaScript · REST APIs · Git
+
+## 2018.11 - 2019.02: Payment Page of Programming School
+
+The company aimed to transition from its existing multi-page payment system to a streamlined one-page application. This initiative was part of an effort to modernize the user interface in line with a new design provided by a professional designer.
+
+I was responsible for transferring the functionality of the legacy payment system to the new single-page application.
+
+- Implemented form validation mechanisms on both the client and server sides to ensure data integrity and user input accuracy.
+- Integrated internationalization (i18n) to accommodate multiple languages, thereby enhancing the application’s global usability.
+- Added a chat bubble feature to facilitate real-time user support and engagement.
+- Conducted front-end refinements to address minor issues and improve the overall user experience.
+
+The project was successfully executed, resulting in a functional and aesthetically pleasing one-page payment application that aligns with the company’s vision for a more efficient and user-friendly interface.
+
+Skills: Node.js · JavaScript · REST APIs · Git
+
+## 2018.07 - 2018.08: Growth Dashboard (AARRR metrics)
+
+Project Contribution: Data Visualization Developer
+
+Project Aim:
+The growth team required a comprehensive dashboard to visualize user activity and behavioral data, which would serve as a foundation for deriving insights and informing strategic business decisions.
+
+Solution Delivered:
+I started the development of a sophisticated dashboard that provides a visual representation of user engagement and patterns. My initial task involved scripting a data transformation process that converted raw data from MongoDB into a structured format suitable for chart plotting. This enabled the seamless integration of complex datasets into the dashboard, allowing for intuitive analysis and reporting.
+
+Furthermore, I integrated Google Analytics with the dashboard, providing access to key performance indicators such as page views and other relevant metrics. This integration offered a holistic view of user interactions and website performance, thereby enhancing the growth team’s ability to make data-driven decisions.
+
+The successful implementation of this dashboard has empowered the company with actionable insights, optimizing its approach to user engagement and growth strategy.
+
+Skills: Data Analytics · Python · Google Analytics · Data Science
+
+## 2018.07 - 2018.07: Power Plant Dropout Web Scraper
+
+Project Objective:
+The company aimed to develop an application capable of monitoring power plant dropouts and notifying users promptly upon their occurrence.
+
+Technical Solution:
+I was responsible for designing and implementing the web scraping component of the project. This involved developing a script that systematically extracts dropout data from targeted websites. The collected data was then formatted and stored in a CSV file, ready for integration with the alert system. This functionality is crucial for the application’s ability to provide real-time updates and maintain a high level of service reliability for the users.
+
+Skills: Python · Git · Data Science
+
+## 2018.07 - 2018.07: Weather Service Data Fix
+
+Project Challenge:
+The company faced issues with incomplete weather data collection from various locations, leading to system disruptions due to missing timestamps.
+
+Solution Implemented:
+I developed a script designed to address the data gaps by filling them with estimated weather data, ensuring the application’s stability and preventing crashes. To validate the effectiveness of this solution, I also introduced a series of test cases specifically tailored to assess the robustness of the data correction process.
+
+Skills: Python · Git · Data Science
+
+## 2018.01 - 2018.02: Automatic Slack Registration
+
+Project Objective:
+The online programming school sought to expand its Slack-based community by simplifying the registration process. The goal was to eliminate the need for users to navigate a lengthy and unfamiliar form-filling procedure.
+
+Technical Solution:
+I developed a Node.js application utilizing Puppeteer, a headless browser automation tool, to automate the registration process. The application initially registers using a placeholder email address and subsequently updates the registration to the user’s actual email address. As a result, the user receives an email prompting them to set a new password, thereby granting them immediate access to the community’s Slack workspace without the hassle of manual form submission.
+
+Skills: Node.js · Git · Slack
+
+## 2017.06 - 2018.01: Customer Churn Prediction
+
+Project Goal:
+CodeBerry Programming School required a predictive system to identify users at risk of churning, enabling proactive engagement to retain them.
+
+Solution Developed:
+
+- A predictive analytics framework using R Studio hosted on an AWS server.
+- Prepared datasets for analysis.
+- Trained machine learning models to identify patterns indicative of user churn.
+- Conducted exploratory experiments with neural networks to enhance predictive accuracy.
+
+The result was a predictive model that significantly outperformed random selection, correctly identifying users likely to churn with a two-thirds accuracy rate. However, the model’s performance was constrained by the limited amount of training data available from the company.
+
+In addition to the analytics work, I developed a Node.js application that automated the process of sending retention-focused emails through Intercom to the users identified by the model as at risk of churning.
+
+Outcome:
+The project delivered a functional predictive system that provided actionable insights, allowing CodeBerry Programming School to engage with users more effectively and reduce churn rates.
+
+Skills: Deep Learning · Artificial Intelligence (AI) · MongoDB · R · NoSQL · Docker · Data ScienceSkills: Deep Learning · Artificial Intelligence (AI) · MongoDB · R · NoSQL · Docker · Data Science
+
+## 2017.12 - 2018.01: Rapstar - Generating hip-hop lyrics using neural networks
+
+Project Description:
+As a personal endeavor during my university years, I embarked on an experimental project to create an autonomous rap lyricist. Inspired by a Multi-layer Recurrent Neural Networks (RNN) project I discovered on GitHub, my goal was to train a neural network to generate hip-hop lyrics independently.
+
+Technical Execution:
+I developed a web scraper to collect a substantial corpus of Hungarian hip-hop lyrics from a dedicated lyrics website. After performing the necessary data cleaning to refine the dataset, I initiated the training process for the RNN with these texts.
+
+Outcome:
+The project’s end result was a rap-bot that produced text resembling coherent Hungarian lyrics, although the content lacked a meaningful sense. It became evident that achieving the creation of authentic and intelligent lyrics would require a more extensive dataset and prolonged training period.
