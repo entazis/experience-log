@@ -2,6 +2,14 @@
 
 Tech Lead | Full-Stack Software Engineer | 7+ Years Experience in Fast-Paced Environments | Building Scalable Systems | Passionate Problem Solver and AI Enthusiastic
 
+## Table of Contents
+
+- [About](#about)
+- [Experience](#experience)
+- [Education](#education)
+- [Projects](#projects)
+- [Volunteering](#volunteering)
+
 # About
 
 Senior Software Engineer with 7 years of experience working with startups in backend and full-stack development. Expertise in building scalable systems, optimizing performance, improving system stability, and mentoring team members in fast-paced environments.
