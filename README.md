@@ -8,7 +8,7 @@ Senior Software Engineer with 7 years of experience working with startups in bac
 
 # Experience
 
-## BeamLive
+## [BeamLive](https://beam.live)
 
 ### 2025.01 - : Tech Lead
 
@@ -47,7 +47,7 @@ Skills: Nanoservices · JSON · Schema · Jest · Integration Testing · TypeScr
 
 Skills: SQL · Node.js · JSON · MongoDB · API Development · NestJS · TypeORM · Angular · TypeScript · NoSQL · Mqtt · Git · Redis · Open API · Artificial Intelligence (AI) · REST APIs · Internet of Things (IoT) · GitFlow · B2B2C · React · JavaScript · Microservices · PostgreSQL
 
-## CodeBerry Programming School
+## [CodeBerry Programming School](https://codeberryschool.com/)
 
 ### 2018.10 - 2020.08: Software Developer
 
@@ -98,7 +98,7 @@ Skills: Machine Learning · Data Science · Node.js · MongoDB · Data Analytics
 
 Skills: Python · Next.js · Node.js · JSON · MongoDB · NoSQL · Git · React · JavaScript · React.js
 
-## DreamJo.bs
+## [DreamJobs](https://dreamjobs.hu/en)
 
 ### 2019.03 - 2019.05: Data Analyst
 
@@ -107,7 +107,7 @@ Skills: Python · Next.js · Node.js · JSON · MongoDB · NoSQL · Git · React
 
 Skills: Data Science · Data Analytics · Google Data Studio · Google Analytics
 
-## Wello Tools
+## [Wellcome.Chat](https://designterminal.org/en)
 
 ### 2018.09 - 2019.02: Data Analyst
 
@@ -116,7 +116,7 @@ Skills: Data Science · Data Analytics · Google Data Studio · Google Analytics
 
 Skills: Data Science · Data Analytics · Google Analytics
 
-## Dmlab
+## [Dmlab](https://dmlab.hu/en/)
 
 ### 2018.07: Data Engineer
 
@@ -125,7 +125,7 @@ Skills: Data Science · Data Analytics · Google Analytics
 
 Skills: Data Science · Python · Data Analytics · Git
 
-## Budapest University of Technology and Economics
+## [Budapest University of Technology and Economics](https://vik.bme.hu/en/)
 
 ### 2016.09 - 2016.12: Project Management Teaching Assistant
 
@@ -134,7 +134,7 @@ Skills: Data Science · Python · Data Analytics · Git
 
 Skills: Project Management
 
-## SANXO-systems Ltd
+## [SANXO](https://sanxo.eu/)
 
 ### 2015.06 - 2015.08: Software Developer Intern
 
@@ -144,7 +144,7 @@ Skills: OpenCV · Computer Vision
 
 # Education
 
-## Budapest University of Technology and Economics
+## [Budapest University of Technology and Economics](https://vik.bme.hu/en/)
 
 ### 2016 - 2018: Master of Science (MSC), Electrical Engineering
 
@@ -391,17 +391,17 @@ Project Outcomes: This structured approach to refining and enhancing the adminis
 
 Skills: GitFlow · API Development · JSON · MongoDB · Node.js · NoSQL · Angular · Internet of Things (IoT) · JavaScript · NestJS · Open API · REST APIs · Git · React.js
 
-## 2019.03 - 2020.08: Google Ads Exporter
+## 2019.03 - 2020.08: [Google Ads Exporter](https://github.com/entazis/google-ads-exporter)
 
 The company required a consolidated view of its advertising campaign performance, encompassing both the expenditure and conversion metrics. To facilitate this, I developed a Google Script that executes on a scheduled basis—daily, weekly, or monthly—on ads.google.com. This script is designed to aggregate the pertinent data regarding ad campaigns and systematically record it into a designated Google Sheet.
 
 Skills: Google Ads · Data Analytics · Google Apps Script · JavaScript · Git · Data Science
 
-## 2019.11 - 2019.12: Landing page for a customer
+## 2019.11 - 2019.12: [Landing page for a customer](https://github.com/entazis/sypico-landing)
 
 Skills: React · Node.js · JavaScript · Git · Cascading Style Sheets (CSS) · HTML
 
-## 2019.09 - 2019.10: Optimizing the website of a customer
+## 2019.09 - 2019.10: [Optimizing the website of a customer](https://github.com/entazis/robotmaster-next)
 
 Project Overview: This project aimed to improve the efficiency and performance of a customer's site by addressing issues with server-side rendering (SSR) React technology.
 
@@ -409,14 +409,14 @@ Problem Identification: The original implementation of SSR React was misconfigur
 
 Solutions and Improvements:
 
-- Fixed the SSR React implementation to ensure proper functionality, maintaining the benefits of SPA and SSR without unnecessary full-page reloads.
+- Fixed the [SSR React implementation](https://github.com/entazis/robotmaster-ssr) to ensure proper functionality, maintaining the benefits of SPA and SSR without unnecessary full-page reloads.
 - Transitioned to the Next.js framework, enabling static rendering of pages, which further enhanced the site's speed and performance.
 
 By resolving the initial misconfiguration and leveraging Next.js for static rendering, the project successfully optimized the site's performance, delivering a faster and more efficient user experience.
 
 Skills: Next.js
 
-## 2019.01 - 2019.07: Landing Page of Programming School
+## 2019.01 - 2019.07: [Landing Page of Programming School](https://github.com/entazis/landing-page-v2)
 
 Project Objective:
 The aim was to transition from a WordPress platform to a proprietary application. A designer had laid the groundwork with the creation of fundamental HTML, CSS, and JavaScript files to establish the visual design, along with minimal server-side logic for page rendering.
@@ -426,7 +426,7 @@ I successfully migrated all existing functionalities from the legacy site to the
 
 Skills: A/B Testing · Node.js · JavaScript · Git · Cascading Style Sheets (CSS) · HTML
 
-## 2019.04 - 2019.06: Automatic Email Reports (triggers)
+## 2019.04 - 2019.06: [Automatic Email Reports (triggers)](https://github.com/entazis/email-triggers)
 
 Project Synopsis:
 The company aimed to engage users by sending automated reminders to encourage product usage, specifically for ongoing learning activities. The strategy involved dispatching tailored reports on a weekly basis, as well as reports reflecting the user’s activities from the previous day and from a week prior.
@@ -436,7 +436,7 @@ I developed the server-side logic required to support this engagement initiative
 
 Skills: JSON · MongoDB · Node.js · NoSQL · JavaScript · Git
 
-## 2019.03 - 2019.04: Facebook Ads Exporter
+## 2019.03 - 2019.04: [Facebook Ads Exporter](https://github.com/entazis/facebook-ads-exporter)
 
 Project Overview:
 The objective was to replicate the functionality of a Google Ads data exporter, with the focus shifted to extracting data from Facebook Ads. The end goal was to achieve a similar output format in the spreadsheet as that of the Google Ads exporter.
@@ -456,7 +456,7 @@ I established a Google Analytics account to systematically gather pertinent data
 
 Skills: Data Analytics · Data Science
 
-## 2019.01 - 2019.03: Badges (gamification)
+## 2019.01 - 2019.03: [Badges (gamification)](https://github.com/entazis/badges-module)
 
 Project Context:
 The company aimed to enhance user engagement within their application by introducing a gamification feature. They decided to implement a badge system as the initial step towards this goal. The visual assets and designs for the badges were pre-defined and provided to me.
@@ -489,7 +489,7 @@ Project Aim:
 The growth team required a comprehensive dashboard to visualize user activity and behavioral data, which would serve as a foundation for deriving insights and informing strategic business decisions.
 
 Solution Delivered:
-I started the development of a sophisticated dashboard that provides a visual representation of user engagement and patterns. My initial task involved scripting a data transformation process that converted raw data from MongoDB into a structured format suitable for chart plotting. This enabled the seamless integration of complex datasets into the dashboard, allowing for intuitive analysis and reporting.
+I started the development of a sophisticated dashboard that provides a visual representation of user engagement and patterns. My initial task involved [scripting a data transformation](https://github.com/entazis/user-activity-data-preparer) process that converted raw data from MongoDB into a structured format suitable for chart plotting. This enabled the seamless integration of complex datasets into the dashboard, allowing for intuitive analysis and reporting.
 
 Furthermore, I integrated Google Analytics with the dashboard, providing access to key performance indicators such as page views and other relevant metrics. This integration offered a holistic view of user interactions and website performance, thereby enhancing the growth team’s ability to make data-driven decisions.
 
@@ -497,7 +497,7 @@ The successful implementation of this dashboard has empowered the company with a
 
 Skills: Data Analytics · Python · Google Analytics · Data Science
 
-## 2018.07 - 2018.07: Power Plant Dropout Web Scraper
+## 2018.07 - 2018.07: [Power Plant Dropout Web Scraper](https://github.com/entazis/power-plant-dropout-scraper)
 
 Project Objective:
 The company aimed to develop an application capable of monitoring power plant dropouts and notifying users promptly upon their occurrence.
@@ -507,7 +507,7 @@ I was responsible for designing and implementing the web scraping component of t
 
 Skills: Python · Git · Data Science
 
-## 2018.07 - 2018.07: Weather Service Data Fix
+## 2018.07 - 2018.07: [Weather Service Data Fix](https://github.com/entazis/weather-service-data-fix)
 
 Project Challenge:
 The company faced issues with incomplete weather data collection from various locations, leading to system disruptions due to missing timestamps.
@@ -517,7 +517,7 @@ I developed a script designed to address the data gaps by filling them with esti
 
 Skills: Python · Git · Data Science
 
-## 2018.01 - 2018.02: Automatic Slack Registration
+## 2018.01 - 2018.02: [Automatic Slack Registration](https://github.com/entazis/automatic-slack-registration)
 
 Project Objective:
 The online programming school sought to expand its Slack-based community by simplifying the registration process. The goal was to eliminate the need for users to navigate a lengthy and unfamiliar form-filling procedure.
@@ -527,7 +527,7 @@ I developed a Node.js application utilizing Puppeteer, a headless browser automa
 
 Skills: Node.js · Git · Slack
 
-## 2017.06 - 2018.01: Customer Churn Prediction
+## 2017.06 - 2018.01: [Customer Churn Prediction](https://github.com/entazis/churnacle-node)
 
 Project Goal:
 CodeBerry Programming School required a predictive system to identify users at risk of churning, enabling proactive engagement to retain them.
@@ -548,7 +548,7 @@ The project delivered a functional predictive system that provided actionable in
 
 Skills: Deep Learning · Artificial Intelligence (AI) · MongoDB · R · NoSQL · Docker · Data ScienceSkills: Deep Learning · Artificial Intelligence (AI) · MongoDB · R · NoSQL · Docker · Data Science
 
-## 2017.12 - 2018.01: Rapstar - Generating hip-hop lyrics using neural networks
+## 2017.12 - 2018.01: [Rapstar](https://github.com/entazis/rapstar-project) - Generating hip-hop lyrics using neural networks
 
 Project Description:
 As a personal endeavor during my university years, I embarked on an experimental project to create an autonomous rap lyricist. Inspired by a Multi-layer Recurrent Neural Networks (RNN) project I discovered on GitHub, my goal was to train a neural network to generate hip-hop lyrics independently.
