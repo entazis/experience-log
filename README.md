@@ -558,3 +558,37 @@ I developed a web scraper to collect a substantial corpus of Hungarian hip-hop l
 
 Outcome:
 The project’s end result was a rap-bot that produced text resembling coherent Hungarian lyrics, although the content lacked a meaningful sense. It became evident that achieving the creation of authentic and intelligent lyrics would require a more extensive dataset and prolonged training period.
+
+# Volunteering
+
+## Invisible University
+
+### 2019.01 - 2022.01: Chief Executive Officer
+
+### 2016.06 - 2019.05: Organizational Development Consultant and Team Lead
+
+- Conducted in-depth process analysis to identify and resolve organizational inefficiencies.
+- Proposed strategic improvements to enhance operational effectiveness.
+- Developed and implemented performance metrics to quantify the impact of organizational changes.
+
+### 2018.09 - 2019.08: Nonviolent Communication Specialist
+
+Offered pro bono training in nonviolent communication (NVC) to young adults, fostering empathetic engagement and conflict resolution.
+
+### 2018.09 - 2018.11: Gamification Expert
+
+Provided pro bono gamification training to young adults, aiming to engage and motivate through the application of game-design elements in non-game contexts.
+
+### 2015.09 - 2018.02: Trainer of Trainers
+
+Facilitated comprehensive training programs for the educators at the Invisible University, covering a range of topics including:
+
+- Advanced presentation techniques
+- Effective conversation leadership
+- Strategies for managing challenging interactions
+- Principles of nonviolent communication
+- Constructive feedback methodologies
+
+### 2014.02 - 2014.11: Time Management Coach
+
+Conducted time management workshops for undergraduate students, focusing on enhancing their organizational skills and productivity.
