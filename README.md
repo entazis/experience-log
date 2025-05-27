@@ -120,7 +120,7 @@ Skills: Data Science · Data Analytics · Google Analytics
 
 ### 2018.07: Data Engineer
 
-- Developed web scraping scripts in Python to collect data on energy company downtime, improving the company’s ability to respond to power disruptions.
+- Developed web scraping scripts in Python to collect data on energy company downtime, improving the company's ability to respond to power disruptions.
 - Identified and corrected data integrity issues, ensuring the reliability and accuracy of datasets for internal use.
 
 Skills: Data Science · Python · Data Analytics · Git
@@ -202,7 +202,7 @@ Project Leadership and Strategy:
 
 - Held discussions with the CEO regarding resource needs for expansion.
 - Took responsibility for all backend-related services, setting development conventions, and creating tools to support these services.
-- Engaged in system design and architectural decisions to ensure the platform’s robustness and scalability.
+- Engaged in system design and architectural decisions to ensure the platform's robustness and scalability.
 
 Through these efforts, the project not only enhanced the technical infrastructure of the platform but also improved team dynamics and streamlined development processes, setting a strong foundation for future growth and scalability.
 
@@ -429,7 +429,7 @@ Skills: A/B Testing · Node.js · JavaScript · Git · Cascading Style Sheets (C
 ## 2019.04 - 2019.06: [Automatic Email Reports (triggers)](https://github.com/entazis/email-triggers)
 
 Project Synopsis:
-The company aimed to engage users by sending automated reminders to encourage product usage, specifically for ongoing learning activities. The strategy involved dispatching tailored reports on a weekly basis, as well as reports reflecting the user’s activities from the previous day and from a week prior.
+The company aimed to engage users by sending automated reminders to encourage product usage, specifically for ongoing learning activities. The strategy involved dispatching tailored reports on a weekly basis, as well as reports reflecting the user's activities from the previous day and from a week prior.
 
 Technical Execution:
 I developed the server-side logic required to support this engagement initiative, complemented by designing the HTML email templates. The system was programmed to execute on a daily and weekly schedule, intelligently querying the database for users based on their recent activity—whether they were active the day before, in the last week, or precisely seven days ago. Upon identifying the relevant users, the process dynamically compiled personalized emails detailing their recent interactions with the product and dispatched these communications accordingly.
@@ -473,11 +473,11 @@ The company aimed to transition from its existing multi-page payment system to a
 I was responsible for transferring the functionality of the legacy payment system to the new single-page application.
 
 - Implemented form validation mechanisms on both the client and server sides to ensure data integrity and user input accuracy.
-- Integrated internationalization (i18n) to accommodate multiple languages, thereby enhancing the application’s global usability.
+- Integrated internationalization (i18n) to accommodate multiple languages, thereby enhancing the application's global usability.
 - Added a chat bubble feature to facilitate real-time user support and engagement.
 - Conducted front-end refinements to address minor issues and improve the overall user experience.
 
-The project was successfully executed, resulting in a functional and aesthetically pleasing one-page payment application that aligns with the company’s vision for a more efficient and user-friendly interface.
+The project was successfully executed, resulting in a functional and aesthetically pleasing one-page payment application that aligns with the company's vision for a more efficient and user-friendly interface.
 
 Skills: Node.js · JavaScript · REST APIs · Git
 
@@ -491,7 +491,7 @@ The growth team required a comprehensive dashboard to visualize user activity an
 Solution Delivered:
 I started the development of a sophisticated dashboard that provides a visual representation of user engagement and patterns. My initial task involved [scripting a data transformation](https://github.com/entazis/user-activity-data-preparer) process that converted raw data from MongoDB into a structured format suitable for chart plotting. This enabled the seamless integration of complex datasets into the dashboard, allowing for intuitive analysis and reporting.
 
-Furthermore, I integrated Google Analytics with the dashboard, providing access to key performance indicators such as page views and other relevant metrics. This integration offered a holistic view of user interactions and website performance, thereby enhancing the growth team’s ability to make data-driven decisions.
+Furthermore, I integrated Google Analytics with the dashboard, providing access to key performance indicators such as page views and other relevant metrics. This integration offered a holistic view of user interactions and website performance, thereby enhancing the growth team's ability to make data-driven decisions.
 
 The successful implementation of this dashboard has empowered the company with actionable insights, optimizing its approach to user engagement and growth strategy.
 
@@ -503,7 +503,7 @@ Project Objective:
 The company aimed to develop an application capable of monitoring power plant dropouts and notifying users promptly upon their occurrence.
 
 Technical Solution:
-I was responsible for designing and implementing the web scraping component of the project. This involved developing a script that systematically extracts dropout data from targeted websites. The collected data was then formatted and stored in a CSV file, ready for integration with the alert system. This functionality is crucial for the application’s ability to provide real-time updates and maintain a high level of service reliability for the users.
+I was responsible for designing and implementing the web scraping component of the project. This involved developing a script that systematically extracts dropout data from targeted websites. The collected data was then formatted and stored in a CSV file, ready for integration with the alert system. This functionality is crucial for the application's ability to provide real-time updates and maintain a high level of service reliability for the users.
 
 Skills: Python · Git · Data Science
 
@@ -513,7 +513,7 @@ Project Challenge:
 The company faced issues with incomplete weather data collection from various locations, leading to system disruptions due to missing timestamps.
 
 Solution Implemented:
-I developed a script designed to address the data gaps by filling them with estimated weather data, ensuring the application’s stability and preventing crashes. To validate the effectiveness of this solution, I also introduced a series of test cases specifically tailored to assess the robustness of the data correction process.
+I developed a script designed to address the data gaps by filling them with estimated weather data, ensuring the application's stability and preventing crashes. To validate the effectiveness of this solution, I also introduced a series of test cases specifically tailored to assess the robustness of the data correction process.
 
 Skills: Python · Git · Data Science
 
@@ -523,7 +523,7 @@ Project Objective:
 The online programming school sought to expand its Slack-based community by simplifying the registration process. The goal was to eliminate the need for users to navigate a lengthy and unfamiliar form-filling procedure.
 
 Technical Solution:
-I developed a Node.js application utilizing Puppeteer, a headless browser automation tool, to automate the registration process. The application initially registers using a placeholder email address and subsequently updates the registration to the user’s actual email address. As a result, the user receives an email prompting them to set a new password, thereby granting them immediate access to the community’s Slack workspace without the hassle of manual form submission.
+I developed a Node.js application utilizing Puppeteer, a headless browser automation tool, to automate the registration process. The application initially registers using a placeholder email address and subsequently updates the registration to the user's actual email address. As a result, the user receives an email prompting them to set a new password, thereby granting them immediate access to the community's Slack workspace without the hassle of manual form submission.
 
 Skills: Node.js · Git · Slack
 
@@ -539,7 +539,7 @@ Solution Developed:
 - Trained machine learning models to identify patterns indicative of user churn.
 - Conducted exploratory experiments with neural networks to enhance predictive accuracy.
 
-The result was a predictive model that significantly outperformed random selection, correctly identifying users likely to churn with a two-thirds accuracy rate. However, the model’s performance was constrained by the limited amount of training data available from the company.
+The result was a predictive model that significantly outperformed random selection, correctly identifying users likely to churn with a two-thirds accuracy rate. However, the model's performance was constrained by the limited amount of training data available from the company.
 
 In addition to the analytics work, I developed a Node.js application that automated the process of sending retention-focused emails through Intercom to the users identified by the model as at risk of churning.
 
@@ -557,7 +557,7 @@ Technical Execution:
 I developed a web scraper to collect a substantial corpus of Hungarian hip-hop lyrics from a dedicated lyrics website. After performing the necessary data cleaning to refine the dataset, I initiated the training process for the RNN with these texts.
 
 Outcome:
-The project’s end result was a rap-bot that produced text resembling coherent Hungarian lyrics, although the content lacked a meaningful sense. It became evident that achieving the creation of authentic and intelligent lyrics would require a more extensive dataset and prolonged training period.
+The project's end result was a rap-bot that produced text resembling coherent Hungarian lyrics, although the content lacked a meaningful sense. It became evident that achieving the creation of authentic and intelligent lyrics would require a more extensive dataset and prolonged training period.
 
 # Volunteering
 
