@@ -173,6 +173,16 @@ Skills: OpenCV · Computer Vision
 
 # Certifications
 
+## AWS Certified Solutions Architect – Associate (Course Completed)
+
+Udemy — Completed 2024
+
+[Course link](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/)
+
+Overview: Completed the full preparation course for the AWS Solutions Architect Associate certification, gaining hands-on understanding of AWS cloud infrastructure, deployment models, and architecture design.
+
+Skills: AWS · Cloud Architecture · EC2 · S3 · RDS · Lambda · CloudFormation · IAM · Networking
+
 ## Learn Ethical Hacking From Scratch
 
 zSecurity — Issued Jan 2021
