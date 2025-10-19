@@ -7,6 +7,7 @@ Tech Lead | Full-Stack Software Engineer | 7+ Years Experience in Fast-Paced Env
 - [About](#about)
 - [Experience](#experience)
 - [Education](#education)
+- [Certifications](#certifications)
 - [Projects](#projects)
 - [Volunteering](#volunteering)
 
@@ -169,6 +170,48 @@ Skills: OpenCV · Computer Vision
 ### 2012 - 2015: Bachelor of Science (BSC), Electrical Engineering
 
 - Computer-based Systems specialization.
+
+# Certifications
+
+## Learn Ethical Hacking From Scratch
+
+zSecurity — Issued Jan 2021
+
+Credential ID: UC-93247c58-26b9-441c-8e99-aab40fd05cd3
+
+Skills: Ethical Hacking
+
+## Go: The Complete Developer's Guide (Golang)
+
+Udemy — Issued May 2018
+
+Credential ID: UC-VO6G9G6L
+
+Skills: Golang
+
+## Convolutional Neural Networks
+
+DeepLearning.AI — Issued Jan 2018
+
+Credential ID: PQR3G7RXKTQZ
+
+Skills: Artificial Intelligence (AI) · Machine Learning · Deep Learning · Computer Vision
+
+## Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+
+DeepLearning.AI — Issued Jan 2018
+
+Credential ID: 8B2LKZHCJETV
+
+Skills: Deep Learning · Machine Learning · Artificial Intelligence (AI)
+
+## Neural Networks and Deep Learning
+
+DeepLearning.AI — Issued Jan 2018
+
+Credential ID: RTTTM2G3S9YQ
+
+Skills: Machine Learning · Deep Learning · Artificial Intelligence (AI) · Python
 
 # Projects
 
