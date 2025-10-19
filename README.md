@@ -18,7 +18,14 @@ Senior Software Engineer with 7 years of experience working with startups in bac
 
 ## [BeamLive](https://beam.live)
 
-### 2025.01 - : Tech Lead
+### 2025.01 – Present: Tech Lead
+
+- Led the migration to Beam v2.2 and the transition to a monorepository architecture.
+- Established dynamic model loading, schema automation, and AI-driven development workflows.
+- Introduced Prometheus monitoring, MCP servers, and new deployment protocols.
+- Managed a distributed tech team, onboarded new engineers, and implemented static code analysis and CI improvements.
+
+Skills: Tech Leadership · Monorepository · Schema Automation · AI-Driven Development · Prometheus · MCP · DevOps · Team Management · CI/CD · Static Code Analysis · NestJS · TypeScript · Redis
 
 ### 2022.02 - 2024.12: Senior Software Engineer
 
@@ -164,6 +171,84 @@ Skills: OpenCV · Computer Vision
 - Computer-based Systems specialization.
 
 # Projects
+
+## 2025.09: Deployment Protocol & Security Hardening
+
+Unified all repositories under BeamLive GitHub organization and established robust deployment practices:
+
+- Designed comprehensive deployment policy with review and staging process.
+- Introduced technical and security reviews before production deployments.
+- Established clear guidelines for code quality and security standards.
+
+Result: Enhanced system security and deployment reliability through standardized processes and comprehensive review procedures.
+
+Skills: DevOps · Security · CI/CD · Release Management · GitHub · Policy Design
+
+## 2025.08: MCP Server Integration
+
+Deployed Model-Context Protocol servers to enable AI agents to interact with core services:
+
+- Integrated MCP servers with existing infrastructure.
+- Experimented with autonomous agents for testing and development tasks.
+- Enabled AI-driven automation for routine development operations.
+
+Result: Successfully created a foundation for AI-assisted development workflows and autonomous testing capabilities.
+
+Skills: AI Agents · MCP · API Integration · Automation · Protocol Design
+
+## 2025.07 - 2025.10: Dynamic Model Loading & Schema Generation
+
+Introduced a dynamic runtime schema system for Beam's data models:
+
+- Merged all entity model types into a unified schema with metadata.
+- Implemented runtime JSON Schema generation and dynamic loading from configuration databases.
+- Automated database index, trigger, and validation schema generation based on the dynamic models.
+
+Result: Drastically reduced schema maintenance time and improved consistency across services.
+
+Skills: JSON Schema · Runtime Validation · NestJS · TypeScript · Automation · Database Indexing · Schema Design · Redis · Metadata Management
+
+## 2025.07 - 2025.09: Beam Live Monorepository & DevOps Ecosystem
+
+Consolidated 15+ repositories into a single Beam Live Core Monorepo:
+
+- Migrated 6,674 commits with full version history, preserving complete development timeline.
+- Achieved 500% productivity increase using AI agents for code migration and refactoring.
+- Split structure into core services, packages, and apps with clear separation of concerns.
+- Introduced Prometheus monitoring for comprehensive system observability.
+- Added AI AGENTS.md documentation for AI-assisted development and MCP server integration.
+
+Result: Simplified maintenance, unified development workflow, and dramatically improved developer productivity through consolidated codebase.
+
+Skills: Monorepository · DevOps · Prometheus · AI Agents · Automation · NestJS · TypeScript · GitHub Actions · CI/CD · Git Migration · Repository Management
+
+## 2025.03 - 2025.08: Beam v2.2 Migration & System Stabilization
+
+Led the major migration to version 2.2 with comprehensive service overhauls:
+
+- Oversaw multiple service migrations and refactors (common, connector, page-messaging, authenticator, notification, CUDB).
+- Introduced testing framework and debug tools across all services.
+- Created 20+ integration tests per service, significantly improving code reliability.
+- Set deployment protocols and security review policies.
+- Established AI-assisted development guidelines and daily tech team standups.
+
+Result: Successfully migrated all core services to v2.2 with improved stability, test coverage, and development processes.
+
+Skills: Microservices · NestJS · Redis · CI/CD · Security Policy · Testing Automation · Leadership · Integration Testing · Jest · Team Coordination
+
+## 2025.02 - 2025.10: AI-Assisted Development & Team Management
+
+Built an AI-enhanced workflow for code review, debugging, and repository migration:
+
+- Managed a distributed tech team of 5 developers.
+- Set up Cursor subscriptions, AI tools budget, and rules for AI agents.
+- Implemented AI-driven code review processes and automated debugging workflows.
+- Mentored developers in AI-assisted development practices.
+- Led shaping meetings and wrote technical reports to stakeholders.
+
+Result: Dramatically improved team productivity and code quality through systematic AI integration and effective remote team management.
+
+Skills: Leadership · AI Tooling · Remote Team Management · Process Automation · Mentorship · Slack Automation · Code Review · Budget Management · Technical Writing
 
 ## 2024.03 - 2024.10: Beam CI/CD and Tests
 
