@@ -695,6 +695,23 @@ I developed a web scraper to collect a substantial corpus of Hungarian hip-hop l
 Outcome:
 The project's end result was a rap-bot that produced text resembling coherent Hungarian lyrics, although the content lacked a meaningful sense. It became evident that achieving the creation of authentic and intelligent lyrics would require a more extensive dataset and prolonged training period.
 
+## 2015.02 - 2015.05: Teachable Remote Controller
+
+Project Overview:
+An independent university project focusing on embedded system design and hardware–software integration. The goal was to create a programmable remote controller capable of learning and reproducing infrared signals from other remotes.
+
+Key Contributions:
+
+- Designed and assembled the integrated circuit and supporting hardware.
+- Soldered all components and connected them to a microcontroller.
+- Developed low-level C firmware to control input buttons, manage the IR receiver, and transmit stored signals.
+- Implemented a signal-recording system allowing users to teach the remote new commands dynamically.
+
+Outcome:
+The final device successfully stored and replayed infrared signals from arbitrary remotes, functioning as a fully programmable universal controller.
+
+Skills: Embedded Systems · C Programming · Microcontrollers · Circuit Design · Infrared Communication · Soldering · Hardware Prototyping
+
 # Volunteering
 
 ## Invisible University
