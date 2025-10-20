@@ -1,6 +1,6 @@
 # Bence Szabó
 
-Tech Lead | Full-Stack Software Engineer | 7+ Years Experience in Fast-Paced Environments | Building Scalable Systems | Passionate Problem Solver and AI Enthusiastic
+Tech Lead & Full-Stack Engineer | 7+ Years Building Scalable Systems | Team Leadership & AI-Enhanced Development Workflows
 
 ## Table of Contents
 
@@ -11,24 +11,35 @@ Tech Lead | Full-Stack Software Engineer | 7+ Years Experience in Fast-Paced Env
 - [Projects](#projects)
 - [Volunteering](#volunteering)
 
-# About
+## About
 
-Senior Software Engineer with 7 years of experience working with startups in backend and full-stack development. Expertise in building scalable systems, optimizing performance, improving system stability, and mentoring team members in fast-paced environments.
+Senior Software Engineer with 7+ years driving technical innovation in high-growth startups. Proven track record in building scalable microservices architectures, leading distributed teams, and achieving measurable productivity improvements through AI-assisted development. Specialized in backend systems, DevOps automation, and creating maintainable architectures that scale. Led successful migrations of 15+ repositories into unified monorepo architectures and established deployment protocols that enhanced system security and reliability.
 
-# Experience
+## Experience
 
-## [BeamLive](https://beam.live)
+### [BeamLive](https://beam.live)
 
-### 2025.01 – Present: Tech Lead
+#### 2025.01 - Present: Tech Lead
 
-- Led the migration to Beam v2.2 and the transition to a monorepository architecture.
+- Led the migration to Beam v2.2 and the transition to a unified monorepo architecture.
 - Established dynamic model loading, schema automation, and AI-driven development workflows.
 - Introduced Prometheus monitoring, MCP servers, and new deployment protocols.
 - Managed a distributed tech team, onboarded new engineers, and implemented static code analysis and CI improvements.
+- Coordinated multiple service migrations (connector, authenticator, notification, central user database) and ensured successful integration under v2.2.
+- Introduced daily stand-ups, reporting systems, and continuous improvement processes.
+- Applied AI-assisted development using MCP agents, achieving 5x productivity gains in code migration and refactoring tasks.
 
-Skills: Tech Leadership · Monorepository · Schema Automation · AI-Driven Development · Prometheus · MCP · DevOps · Team Management · CI/CD · Static Code Analysis · NestJS · TypeScript · Redis
+Key Initiatives:
 
-### 2022.02 - 2024.12: Senior Software Engineer
+- **Dynamic Model Loading (Extended Bio):** Unified Beam data models, generated runtime JSON schemas, and automated database index, trigger, and validation generation.
+- **Monorepo Transition:** Merged 15+ repositories into the Beam Live Core monorepo (over 6,600 commits preserved), enabling faster deployments and simplified dependency management.
+- **AI Agent Integration:** Established MCP servers and AI agent protocols for automating code review, deployment, and documentation tasks.
+- **Deployment Protocol & Security:** Standardized release management, improved production reliability, and introduced technical/security review policies.
+- **Team Leadership:** Conducted weekly technical meetings, daily Slack stand-ups, and mentoring sessions for new hires.
+
+**Skills:** Leadership · Microservices · NestJS · Redis · TypeScript · AI Agents · MCP · Prometheus
+
+#### 2022.02 - 2024.12: Senior Software Engineer
 
 - Designed and built APIs using Node.js and TypeScript, delivering low-latency solutions for critical systems, resulting in 40% faster response times.
 - Developed a nano-service engine and -editor enabling downtime-free feature creation.
@@ -37,7 +48,7 @@ Skills: Tech Leadership · Monorepository · Schema Automation · AI-Driven Deve
 
 Key Projects:
 
-- Nanoservices: Scalable architecture, 50% downtime reduction.
+- Nano-services: Scalable architecture, 50% downtime reduction.
 - Automated Testing: Applied Jest, increasing coverage by 70%.
 - Redis Clustering: Improved response time and fault tolerance.
 - Message Queues: Enhanced load balancing and multi-tenancy.
@@ -53,31 +64,31 @@ Key Projects:
 - Graph Database: Efficient relationship handling.
 - Spreadsheet Calculator: Simplified pricing logic.
 
-Skills: Nanoservices · JSON · Schema · Jest · Integration Testing · TypeScript · Replication (Computing) · Git · Redis · E2E · Message Queue · GitFlow · Multi-Tenant Management · JavaScript · Microservices · React.js · Sharding
+**Skills:** TypeScript · NestJS · Redis · Jest · Microservices · Multi-Tenant Management · Message Queue
 
-### 2020.08 - 2022.01: Full Stack Software Developer & Product Owner
+#### 2020.08 - 2022.01: Full Stack Software Developer & Product Owner
 
 - Architected and shipped new features for the administrative platform, improving scalability and performance.
 - Initiated a system redesign that boosted performance and scalability, ensuring adaptability to future requirements.
 - Improved code quality by 40% through core component extraction, simplifying the codebase.
 
-Skills: SQL · Node.js · JSON · MongoDB · API Development · NestJS · TypeORM · Angular · TypeScript · NoSQL · Mqtt · Git · Redis · Open API · Artificial Intelligence (AI) · REST APIs · Internet of Things (IoT) · GitFlow · B2B2C · React · JavaScript · Microservices · PostgreSQL
+**Skills:** NestJS · TypeScript · MongoDB · PostgreSQL · Redis · Angular · React · MQTT
 
-## [CodeBerry Programming School](https://codeberryschool.com/)
+### [CodeBerry Programming School](https://codeberryschool.com/)
 
-### 2018.10 - 2020.08: Software Developer
+#### 2018.10 - 2020.08: Software Developer
 
 Core Development Areas:
 
-- Web Applications & Websites: created and enhanced web-based platforms, ensuring a seamless user experience.
+- Web Applications & Websites: Created and enhanced web-based platforms, ensuring a seamless user experience.
 - Landing & Payment Pages: Revitalized the online presence with redesigned landing and payment pages, optimizing conversion rates.
 - User Experience (UX) Improvements: Implemented UX upgrades and automated email systems to engage users effectively.
 - Gamification Features: Developed a badge system to gamify the user experience, fostering increased interaction and retention.
 - Data Extraction Tools: Crafted web scrapers to gather and process data, supporting various operational needs.
 
-Skills: Amazon Web Services (AWS) · Node.js · JSON · MongoDB · GraphQL · API Development · NoSQL · Git · REST APIs · Docker · GitFlow · JavaScript · React.js
+**Skills:** Node.js · MongoDB · GraphQL · API Development · Docker · JavaScript · React.js
 
-### 2018.06 - 2020.08: Data Analyst
+#### 2018.06 - 2020.08: Data Analyst
 
 Key Analytical Functions:
 
@@ -87,145 +98,144 @@ Key Analytical Functions:
 - Ad Campaign Analysis: Performed detailed statistical analyses of advertising campaigns, evaluating channels, mediums, and sources.
 - AARRR Metrics: Monitored and reported on critical AARRR metrics (Acquisition, Activation, Retention, Referral, Revenue), traffic, conversion rates, and user retention.
 
-Skills: Data Science · JSON · MongoDB · Data Analytics · Google Data Studio · Google Analytics
+**Skills:** Data Analytics · MongoDB · Google Data Studio · Google Analytics
 
-### 2018.09 - 2019.03: Code Mentor
+#### 2018.09 - 2019.03: Code Mentor
 
-Guided and mentored students in coding practices, helping them build practical skills through projects in web development.Guided and mentored students in coding practices, helping them build practical skills through projects in web development.
+Guided and mentored students in coding practices, helping them build practical skills through projects in web development.
 
-Skills: Cascading Style Sheets (CSS) · JavaScript · HTML
+**Skills:** Cascading Style Sheets (CSS) · JavaScript · HTML
 
-### 2017.06 - 2018.06: Data Scientist Intern and Machine Learning Engineer
+#### 2017.06 - 2018.06: Data Scientist Intern and Machine Learning Engineer
 
 Key Contributions:
 
 - Predicting customer churn: developed predictive machine learning models focused on customer churn prediction, contributing to customer retention strategies.
 - Conducted correlation analysis to uncover meaningful relationships within data, driving business insights.
 
-Skills: Machine Learning · Data Science · Node.js · MongoDB · Data Analytics · R · Artificial Intelligence (AI)
+**Skills:** Machine Learning · Node.js · MongoDB · Data Analytics · R · Artificial Intelligence (AI)
 
-## Freelancing
+### Freelancing
 
-### 2018.08 - 2020.08: Full Stack Developer with Data Analytics experience
+#### 2018.08 - 2020.08: Full Stack Developer with Data Analytics experience
 
 - Built custom websites, applications, and web scrapers for clients improving user experience and performance.
 - Developed server-side applications and static sites ensuring efficient and responsive client solutions.
 - Managed data analytics tasks, including the creation of dashboards and reports to support client decision-making.
 
-Skills: Python · Next.js · Node.js · JSON · MongoDB · NoSQL · Git · React · JavaScript · React.js
+**Skills:** Python · Next.js · Node.js · MongoDB · React · JavaScript
 
-## [DreamJobs](https://dreamjobs.hu/en)
+### [DreamJobs](https://dreamjobs.hu/en)
 
-### 2019.03 - 2019.05: Data Analyst
+#### 2019.03 - 2019.05: Data Analyst
 
-- Set Google Analytics up to track and analyze website traffic effectively.
+- Set up Google Analytics to track and analyze website traffic effectively.
 - Generated statistics and charts to visualize the performance of advertising campaigns, including analysis of various channels and sources.
 
-Skills: Data Science · Data Analytics · Google Data Studio · Google Analytics
+**Skills:** Data Analytics · Google Data Studio · Google Analytics
 
-## [Wellcome.Chat](https://designterminal.org/en)
+### [Welcome.Chat](https://designterminal.org/en)
 
-### 2018.09 - 2019.02: Data Analyst
+#### 2018.09 - 2019.02: Data Analyst
 
 - Conducted customer interviews to gather qualitative insights and feedback.
 - Performed data analysis on web pages with chat support to understand user interactions and improve the support experience.
 
-Skills: Data Science · Data Analytics · Google Analytics
+**Skills:** Data Analytics · Google Analytics
 
-## [Dmlab](https://dmlab.hu/en/)
+### [Dmlab](https://dmlab.hu/en/)
 
-### 2018.07: Data Engineer
+#### 2018.07: Data Engineer
 
 - Developed web scraping scripts in Python to collect data on energy company downtime, improving the company's ability to respond to power disruptions.
 - Identified and corrected data integrity issues, ensuring the reliability and accuracy of datasets for internal use.
 
-Skills: Data Science · Python · Data Analytics · Git
+**Skills:** Python · Data Analytics · Git
 
-## [Budapest University of Technology and Economics](https://vik.bme.hu/en/)
+### [Budapest University of Technology and Economics](https://vik.bme.hu/en/)
 
-### 2016.09 - 2016.12: Project Management Teaching Assistant
+#### 2016.09 - 2016.12: Project Management Teaching Assistant
 
 - Assisted with lectures, and provided support in delivering educational content.
 - Corrected project documents, and ensured the accuracy and quality of student submissions.
 
-Skills: Project Management
+**Skills:** Project Management
 
-## [SANXO](https://sanxo.eu/)
+### [SANXO](https://sanxo.eu/)
 
-### 2015.06 - 2015.08: Software Developer Intern
+#### 2015.06 - 2015.08: Software Developer Intern
 
-Developed a computer vision program that utilizes advanced multi-integration camera technology to measure the speed of any moving object.
+Developed a computer vision program utilizing advanced multi-integration camera technology to measure the speed of any moving object.
 
-Skills: OpenCV · Computer Vision
+**Skills:** OpenCV · Computer Vision
 
-# Education
+## Education
 
-## [Budapest University of Technology and Economics](https://vik.bme.hu/en/)
+### [Budapest University of Technology and Economics](https://vik.bme.hu/en/)
 
-### 2016 - 2018: Master of Science (MSC), Electrical Engineering
+#### 2016 - 2018: Master of Science (MSc), Electrical Engineering
 
 - Computer-based Systems specialization
 - Smart City sub-specialization
 
-### 2012 - 2015: Bachelor of Science (BSC), Electrical Engineering
+#### 2012 - 2015: Bachelor of Science (BSc), Electrical Engineering
 
 - Computer-based Systems specialization.
 
-# Certifications
+## Certifications
 
-## AWS Certified Solutions Architect – Associate (Course Completed)
+### AWS Certified Solutions Architect – Associate *(Course Completed)*
 
-Udemy — Completed 2024
+**Udemy** — *Completed 2024*
 
-[Course link](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/)
+[Course link](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03)
 
-Overview: Completed the full preparation course for the AWS Solutions Architect Associate certification, gaining hands-on understanding of AWS cloud infrastructure, deployment models, and architecture design.
+**Overview:** Completed the full preparation course for the AWS Solutions Architect Associate certification, gaining hands-on understanding of AWS cloud infrastructure, deployment models, and architecture design.  
+**Skills:** AWS · Cloud Architecture · EC2 · S3 · RDS · Lambda · CloudFormation · IAM · Networking
 
-Skills: AWS · Cloud Architecture · EC2 · S3 · RDS · Lambda · CloudFormation · IAM · Networking
+### Learn Ethical Hacking From Scratch
 
-## Learn Ethical Hacking From Scratch
+**zSecurity** — *Issued Jan 2021*
 
-zSecurity — Issued Jan 2021
+Credential ID: **UC-93247c58-26b9-441c-8e99-aab40fd05cd3**
 
-Credential ID: UC-93247c58-26b9-441c-8e99-aab40fd05cd3
+**Skills:** Ethical Hacking
 
-Skills: Ethical Hacking
+### Go: The Complete Developer's Guide (Golang)
 
-## Go: The Complete Developer's Guide (Golang)
+**Udemy** — *Issued May 2018*  
 
-Udemy — Issued May 2018
+Credential ID: **UC-VO6G9G6L**
 
-Credential ID: UC-VO6G9G6L
+**Skills:** Golang
 
-Skills: Golang
+### Convolutional Neural Networks
 
-## Convolutional Neural Networks
+**DeepLearning.AI** — *Issued Jan 2018*  
 
-DeepLearning.AI — Issued Jan 2018
+Credential ID: **PQR3G7RXKTQZ**
 
-Credential ID: PQR3G7RXKTQZ
+**Skills:** Artificial Intelligence (AI) · Machine Learning · Deep Learning · Computer Vision
 
-Skills: Artificial Intelligence (AI) · Machine Learning · Deep Learning · Computer Vision
+### Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
 
-## Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+**DeepLearning.AI** — *Issued Jan 2018*
 
-DeepLearning.AI — Issued Jan 2018
+Credential ID: **8B2LKZHCJETV**
 
-Credential ID: 8B2LKZHCJETV
+**Skills:** Deep Learning · Machine Learning · Artificial Intelligence (AI)
 
-Skills: Deep Learning · Machine Learning · Artificial Intelligence (AI)
+### Neural Networks and Deep Learning
 
-## Neural Networks and Deep Learning
+**DeepLearning.AI** — *Issued Jan 2018*
 
-DeepLearning.AI — Issued Jan 2018
+Credential ID: **RTTTM2G3S9YQ**
 
-Credential ID: RTTTM2G3S9YQ
+**Skills:** Machine Learning · Deep Learning · Artificial Intelligence (AI) · Python
 
-Skills: Machine Learning · Deep Learning · Artificial Intelligence (AI) · Python
+## Projects
 
-# Projects
-
-## 2025.09: Deployment Protocol & Security Hardening
+### 2025.09: Deployment Protocol & Security Hardening
 
 Unified all repositories under BeamLive GitHub organization and established robust deployment practices:
 
@@ -233,11 +243,11 @@ Unified all repositories under BeamLive GitHub organization and established robu
 - Introduced technical and security reviews before production deployments.
 - Established clear guidelines for code quality and security standards.
 
-Result: Enhanced system security and deployment reliability through standardized processes and comprehensive review procedures.
+**Outcome:** Enhanced system security and deployment reliability through standardized processes and comprehensive review procedures.
 
-Skills: DevOps · Security · CI/CD · Release Management · GitHub · Policy Design
+**Skills:** DevOps · Security · CI/CD · Release Management · GitHub · Policy Design
 
-## 2025.08: MCP Server Integration
+### 2025.08: MCP Server Integration
 
 Deployed Model-Context Protocol servers to enable AI agents to interact with core services:
 
@@ -245,53 +255,63 @@ Deployed Model-Context Protocol servers to enable AI agents to interact with cor
 - Experimented with autonomous agents for testing and development tasks.
 - Enabled AI-driven automation for routine development operations.
 
-Result: Successfully created a foundation for AI-assisted development workflows and autonomous testing capabilities.
+**Outcome:** Successfully created a foundation for AI-assisted development workflows and autonomous testing capabilities.
 
-Skills: AI Agents · MCP · API Integration · Automation · Protocol Design
+**Skills:** AI Agents · MCP · API Integration · Automation · Protocol Design
 
-## 2025.07 - 2025.10: Dynamic Model Loading & Schema Generation
+### 2025.07 - 2025.10: Dynamic Model Loading & Schema Generation
 
-Introduced a dynamic runtime schema system for Beam's data models:
+**Project Overview:**  
+Developed a runtime schema system for Beam’s dynamic data models, unifying metadata and automating schema management.
+
+**Key Contributions:**
 
 - Merged all entity model types into a unified schema with metadata.
 - Implemented runtime JSON Schema generation and dynamic loading from configuration databases.
-- Automated database index, trigger, and validation schema generation based on the dynamic models.
+- Automated database index, trigger, and validation schema generation.
 
-Result: Drastically reduced schema maintenance time and improved consistency across services.
+**Outcome:**
+Drastically reduced schema maintenance time and improved consistency across services.
 
-Skills: JSON Schema · Runtime Validation · NestJS · TypeScript · Automation · Database Indexing · Schema Design · Redis · Metadata Management
+**Skills:** JSON Schema · Runtime Validation · NestJS · TypeScript · Automation · Database Indexing · Schema Design · Redis · Metadata Management
 
-## 2025.07 - 2025.09: Beam Live Monorepository & DevOps Ecosystem
+### 2025.07 - 2025.09: Beam Live Monorepo & DevOps Ecosystem
 
 Consolidated 15+ repositories into a single Beam Live Core Monorepo:
 
 - Migrated 6,674 commits with full version history, preserving complete development timeline.
-- Achieved 500% productivity increase using AI agents for code migration and refactoring.
+- Achieved 5x productivity increase in code migration and refactoring through systematic use of AI agents.
 - Split structure into core services, packages, and apps with clear separation of concerns.
 - Introduced Prometheus monitoring for comprehensive system observability.
 - Added AI AGENTS.md documentation for AI-assisted development and MCP server integration.
 
-Result: Simplified maintenance, unified development workflow, and dramatically improved developer productivity through consolidated codebase.
+**Outcome:** Simplified maintenance, unified development workflow, and dramatically improved developer productivity through consolidated codebase.
 
-Skills: Monorepository · DevOps · Prometheus · AI Agents · Automation · NestJS · TypeScript · GitHub Actions · CI/CD · Git Migration · Repository Management
+**Skills:** Monorepo · DevOps · Prometheus · AI Agents · NestJS · TypeScript · GitHub Actions · CI/CD
 
-## 2025.03 - 2025.08: Beam v2.2 Migration & System Stabilization
+### 2025.03 - 2025.08: Beam v2.2 Migration & System Stabilization
 
-Led the major migration to version 2.2 with comprehensive service overhauls:
+**Project Overview:**  
+Directed a large-scale migration project to enhance scalability, testing, and deployment consistency.
+
+**Key Contributions:**
 
 - Oversaw multiple service migrations and refactors (common, connector, page-messaging, authenticator, notification, CUDB).
 - Introduced testing framework and debug tools across all services.
 - Created 20+ integration tests per service, significantly improving code reliability.
 - Set deployment protocols and security review policies.
-- Established AI-assisted development guidelines and daily tech team standups.
+- Established AI-assisted development guidelines and daily tech team stand-ups.
 
-Result: Successfully migrated all core services to v2.2 with improved stability, test coverage, and development processes.
+**Outcome:** Successfully migrated all core services to v2.2 with improved stability, test coverage, and development processes.
 
-Skills: Microservices · NestJS · Redis · CI/CD · Security Policy · Testing Automation · Leadership · Integration Testing · Jest · Team Coordination
+**Skills:** Microservices · NestJS · Redis · CI/CD · Testing Automation · Integration Testing · Jest
 
-## 2025.02 - 2025.10: AI-Assisted Development & Team Management
+### 2025.02 - 2025.10: AI-Assisted Development & Team Management
 
-Built an AI-enhanced workflow for code review, debugging, and repository migration:
+**Project Overview:**  
+Integrated AI tools into daily workflows, enabling automated code review and refactoring.
+
+**Key Contributions:**
 
 - Managed a distributed tech team of 5 developers.
 - Set up Cursor subscriptions, AI tools budget, and rules for AI agents.
@@ -299,11 +319,12 @@ Built an AI-enhanced workflow for code review, debugging, and repository migrati
 - Mentored developers in AI-assisted development practices.
 - Led shaping meetings and wrote technical reports to stakeholders.
 
-Result: Dramatically improved team productivity and code quality through systematic AI integration and effective remote team management.
+**Outcome:**
+Dramatically improved team productivity and code quality through systematic AI integration and effective remote team management.
 
-Skills: Leadership · AI Tooling · Remote Team Management · Process Automation · Mentorship · Slack Automation · Code Review · Budget Management · Technical Writing
+**Skills:** Leadership · AI Tooling · Remote Team Management · Process Automation · Mentorship · Code Review
 
-## 2024.03 - 2024.10: Beam CI/CD and Tests
+### 2024.03 - 2024.10: Beam CI/CD and Tests
 
 Project Overview: This project focused on establishing a Continuous Integration and Continuous Deployment (CI/CD) pipeline to streamline development and deployment processes.
 
@@ -324,9 +345,9 @@ Testing Framework
 
 By automating these processes and establishing a robust testing framework, the project significantly improved the efficiency and reliability of the development and deployment workflow.
 
-Skills: Integration Testing · Jest · GitHub · Redis · Mqtt
+**Skills:** Integration Testing · Jest · GitHub · Redis
 
-## 2022.11 - 2024.10: Live 2.2
+### 2022.11 - 2024.10: Live 2.2
 
 Project Overview: This project involved the comprehensive restructuring and enhancement of a software platform to improve performance, scalability, and developer collaboration. The initiative focused on managing custom client logic through nano-services and transitioning to a more efficient data management system.
 
@@ -352,9 +373,9 @@ Project Leadership and Strategy:
 
 Through these efforts, the project not only enhanced the technical infrastructure of the platform but also improved team dynamics and streamlined development processes, setting a strong foundation for future growth and scalability.
 
-Skills: Multi-Tenant Management · GitFlow · React · API Development · JSON · Schema · Integration Testing · B2B2C · NestJS · Redis · Open API · REST APIs · Git · TypeScript · React.js
+**Skills:** NestJS · Redis · TypeScript · Multi-Tenant Management · JSON Schema · B2B2C · Microservices
 
-## 2022.04 - 2024.03: Evolution of Location Service and Geofence Management
+### 2022.04 - 2024.03: Evolution of Location Service and Geofence Management
 
 The project started with the development of a central location base storage (CLBS) system to manage IoT device location data. Initially, locations were stored as GeoJSON in MongoDB, transmitted via HTTP, and retrieved by clients to display on maps. This setup was inefficient for real-time tracking and lacked advanced geofencing features.
 
@@ -384,12 +405,12 @@ Key Achievements
 - Simplified Architecture: Eliminated legacy dependencies and redundant data handling.
 - Stateful Geofences: Partial implementation of time-based conditions for geofence states using scheduled tasks.
 
-Outcomes
+**Outcome:**
 This evolution transformed the location service into a robust, real-time solution capable of supporting complex IoT ecosystems and advanced geofencing requirements.
 
-Skills: Node.js · NestJS · JSON · GeoJSON · Redis · Tile38 · Geofencing · Mqtt · Hypertext Transfer Protocol (HTTP) · WebSocket · MongoDB
+**Skills:** Node.js · NestJS · Redis · Tile38 · Geofencing · MQTT · GeoJSON
 
-## 2023.11 - 2024.01: Horizontal Scaling
+### 2023.11 - 2024.01: Horizontal Scaling
 
 Project Overview: This project aimed to enhance the scalability of services through horizontal scaling, achieved in two main phases with distinct approaches.
 
@@ -406,33 +427,33 @@ Second Version - The second phase simplified the architecture by:
 - Simplifying the codebase significantly.
 - Employing the round-robin algorithm as the sole method for load balancing.
 
-Skills: Message Queue · Mqtt · Load Balancing
+**Skills:** Message Queue · MQTT · Load Balancing
 
-## 2024.04 - 2023.07: Client Code Reduction
+### 2023.04 - 2023.07: Client Code Reduction
 
 Project Overview: This project aimed to standardize the programming language across all services to enhance efficiency and maintainability. Initially, various services were written in plain JavaScript, which led to inconsistent data structures and interfaces.
 
 Transition to TypeScript: By transitioning all services to TypeScript, the project introduced a more robust development environment that allowed for better design of data structures and interfaces, enabling a form of test-driven development. Type definitions were created and shared between the server and client using a common model types npm package, ensuring consistency across different parts of the application.
 
-Migration to React Native: Given budget constraints, which precluded hiring separate developers for JavaScript, Java (Android), and Swift (iOS), the project explored migrating to React Native. This approach aimed to unify the technology stack (server, database, browser, and mobile clients) under TypeScript. The proof of concept for React Native demonstrated the potential to speed up development by sharing code across different platforms and reducing the need for a large team of specialized developers.Project Overview: This project aimed to standardize the programming language across all services to enhance efficiency and maintainability. Initially, various services were written in plain JavaScript, which led to inconsistent data structures and interfaces. Transition to TypeScript: By transitioning all services to TypeScript, the project introduced a more robust development environment that allowed for better design of data structures and interfaces, enabling a form of test-driven development. Type definitions were created and shared between the server and client using a common model types npm package, ensuring consistency across different parts of the application. Migration to React Native: Given budget constraints, which precluded hiring separate developers for JavaScript, Java (Android), and Swift (iOS), the project explored migrating to React Native. This approach aimed to unify the technology stack (server, database, browser, and mobile clients) under TypeScript. The proof of concept for React Native demonstrated the potential to speed up development by sharing code across different platforms and reducing the need for a large team of specialized developers.
+Migration to React Native: Given budget constraints, which precluded hiring separate developers for JavaScript, Java (Android), and Swift (iOS), the project explored migrating to React Native. This approach aimed to unify the technology stack (server, database, browser, and mobile clients) under TypeScript. The proof of concept for React Native demonstrated the potential to speed up development by sharing code across different platforms and reducing the need for a large team of specialized developers.
 
-Skills: React · npm · JavaScript · TypeScript
+**Skills:** React · npm · JavaScript · TypeScript
 
-## 2023.01 - 2023.06: Programmable Admin Platform
+### 2023.01 - 2023.06: Programmable Admin Platform
 
 Project Summary:
 
 - Admin Client: A thin React client that loads configuration from the server to create the admin editors.
 - Admin Editors: A set of editors to edit data from different databases.
 - Configuration Database: Editor- and nano-service configurations, are stored here.
-- Nano-Services: Each editor creates a new workflow (nano-service) that communicates in real-time with its editor.
+- Nano-services: Each editor creates a new workflow (nano-service) that communicates in real-time with its editor.
 - UI Modifications: Workflow (nano-service) on the backend can modify the UI by sending requests.
 - Actions: A nano-service mechanism called action is running on the React side.
 - Nano-Service Editor: Configurations, workflows, and actions can be created, tested, and debugged here.
 
-Skills: GitFlow · React · JSON · Syncfusion · Redis · Mqtt · Git · TypeScript · Nanoservices
+**Skills:** React · Redis · MQTT · TypeScript · NestJS
 
-## 2022.08 - 2023.02: Nano-Service Engine and Editor
+### 2022.08 - 2023.02: Nano-Service Engine and Editor
 
 Project Overview: The project focuses on improving the workflow development strategy for Beam, a platform designed to enable cooperation between organizations, users, and IoT devices within a B2B2C model. Beam aims to provide core services through a chat-based application, leveraging business logic to connect various stakeholders. However, there are challenges and critiques around the previous workflow design, primarily concerning its understandability and effectiveness for developers.
 
@@ -451,9 +472,9 @@ Achievements and Future Proposals:
 3. Introduction of TypeScript (TS) support in the workflow and actionflow IDE.
 4. Testing and performance improvements for the workflow server, enabling the management of thousands of active workflows.
 
-Skills: GitFlow · Microservices · JSON · NestJS · Redis · Git · TypeScript · Nanoservices
+**Skills:** Microservices · NestJS · Redis · TypeScript
 
-## 2021.11 - 2022.11: Live 2.0
+### 2021.11 - 2022.11: Live 2.0
 
 Refactoring and Modularization: The project began by separating the responsibilities of each microservice to ensure efficient and scalable development. Responsibilities were divided so that each database was accessed and managed by a single service, removing global database queries. Additionally, the logical layers within each microservice were separated into controller, service, core, and database layers.
 
@@ -463,9 +484,9 @@ Modernization Efforts: In collaboration with a seasoned system architect, the pr
 
 Server-Side and Backend Improvements: The server-side development was powered by NestJS, offering a rich ecosystem for building scalable applications. The backend was orchestrated on the Node.js runtime, known for its non-blocking, event-driven architecture, ensuring the system could handle high-throughput requirements effectively.
 
-Skills: Microservices · TypeORM · React · API Development · JSON · Node.js · NoSQL · Internet of Things (IoT) · JavaScript · NestJS · Open API · REST APIs · Git · PostgreSQL
+**Skills:** Microservices · TypeORM · NestJS · Node.js · React · PostgreSQL · TypeScript
 
-## 2021.09 - 2022.09: Scalable Multi-Tenant Service for a B2B2C Company
+### 2021.09 - 2022.09: Scalable Multi-Tenant Service for a B2B2C Company
 
 The project addressed a critical scalability issue in a B2B2C company, which initially created a separate repository for every customer. This approach led to exponential increases in development, maintenance, and deployment times, making it unsustainable.
 
@@ -496,12 +517,12 @@ Key Achievements:
 - Flexibility: The nano-service engine enabled customer-specific workflows without duplicating services.
 - Efficiency: Maintenance and deployment times were significantly reduced.
 
-Outcomes:
+**Outcome:**
 The project delivered a scalable, efficient multi-tenant architecture, dramatically improving speed and operational efficiency while enabling customized workflows for diverse customer needs.
 
-Skills: Multi-Tenant Management · Node.js · NestJS · Mqtt · Microservices · Nanoservices · Configuration Management · B2B2C · TypeScript · JavaScript · Redis · PostgreSQL
+**Skills:** NestJS · MQTT · Microservices · Multi-Tenant Management · TypeScript · Redis · PostgreSQL
 
-## 2021.11 - 2022.06: Central User Database
+### 2021.11 - 2022.06: Central User Database
 
 Project Overview: This project aimed to address the issues of data redundancy and disorganization in the previous system. The original setup suffered from inefficient storage utilization due to multiple databases managed by different services, which were not coherently designed. To resolve these issues, the project focused on restructuring the user data architecture and transitioning from MongoDB to PostgreSQL, and eventually to Redis, for enhanced efficiency.
 
@@ -509,9 +530,9 @@ Challenges and Solutions: The redundancy in user data was introduced during the 
 
 Technical Evolution: The project explored moving core business logic into SQL embedded functions to leverage PostgreSQL's capabilities. Additionally, Redis was adopted later on to further improve efficiency. A significant aspect of this transition was the focus on creating a very fast core service to manage the centralized user database. The introduction of a new data architecture and the shift to SQL databases marked a critical step in optimizing the system's performance and ensuring more organized data management.
 
-Skills: GitFlow · TypeORM · API Development · JSON · Node.js · NoSQL · JavaScript · NestJS · Open API · REST APIs · Git · PostgreSQL · SQL
+**Skills:** TypeORM · NestJS · Node.js · PostgreSQL · SQL · REST APIs
 
-## 2022.01 - 2022.04: Core Packages
+### 2022.01 - 2022.04: Core Packages
 
 Project Overview: This project aimed to eliminate code duplication and improve scalability by restructuring the product into packages. Initially, the product contained significant code redundancy, with separate repositories created for each customer, which complicated maintenance and hindered scalability.
 
@@ -523,9 +544,9 @@ Further Modularization: As the project evolved, the core package was eventually 
 
 By refactoring the product into well-defined packages and introducing microservices, the project significantly improved the architecture, making it more scalable and easier to maintain.
 
-Skills: GitFlow · React · npm · Angular · NestJS · Git · TypeScript
+**Skills:** React · Angular · NestJS · TypeScript · npm
 
-## 2020.08 - 2021.03: Admin Platform
+### 2020.08 - 2021.03: Admin Platform
 
 Project Overview: The project revolves around the software development and refinement of an administrative platform initially developed at a rapid pace. This swift development necessitated a comprehensive phase of debugging and refinement to ensure system stability and functionality. Alongside this, customer-driven enhancements were identified and integrated into the existing system to meet user needs and expectations.
 
@@ -535,19 +556,24 @@ Stakeholder Collaboration: Throughout the project, there was regular and close c
 
 Project Outcomes: This structured approach to refining and enhancing the administrative platform not only improved its functionality and user experience but also established a robust framework for future development. The combination of rigorous debugging, systematic documentation, and responsive integration of customer feedback set the foundation for a scalable and efficient administrative platform.
 
-Skills: GitFlow · API Development · JSON · MongoDB · Node.js · NoSQL · Angular · Internet of Things (IoT) · JavaScript · NestJS · Open API · REST APIs · Git · React.js
+**Skills:** NestJS · MongoDB · Node.js · Angular · REST APIs · React.js
 
-## 2019.03 - 2020.08: [Google Ads Exporter](https://github.com/entazis/google-ads-exporter)
+### 2019.03 - 2020.08: [Google Ads Exporter](https://github.com/entazis/google-ads-exporter)
 
-The company required a consolidated view of its advertising campaign performance, encompassing both the expenditure and conversion metrics. To facilitate this, I developed a Google Script that executes on a scheduled basis—daily, weekly, or monthly—on ads.google.com. This script is designed to aggregate the pertinent data regarding ad campaigns and systematically record it into a designated Google Sheet.
+The company required a consolidated view of its advertising campaign performance, encompassing both the expenditure and conversion metrics. To facilitate this, developed a Google Script that executes on a scheduled basis—daily, weekly, or monthly—on ads.google.com. This script is designed to aggregate the pertinent data regarding ad campaigns and systematically record it into a designated Google Sheet.
 
-Skills: Google Ads · Data Analytics · Google Apps Script · JavaScript · Git · Data Science
+**Skills:** Google Ads · Data Analytics · Google Apps Script · JavaScript
 
-## 2019.11 - 2019.12: [Landing page for a customer](https://github.com/entazis/sypico-landing)
+### 2019.11 - 2019.12: [Landing page for a customer](https://github.com/entazis/sypico-landing)
 
-Skills: React · Node.js · JavaScript · Git · Cascading Style Sheets (CSS) · HTML
+Developed a modern, responsive landing page for a client, implementing custom design requirements and ensuring cross-browser compatibility.
 
-## 2019.09 - 2019.10: [Optimizing the website of a customer](https://github.com/entazis/robotmaster-next)
+**Outcome:**
+Delivered a fully functional, visually appealing landing page that improved client's online presence and conversion rates.
+
+**Skills:** React · Node.js · JavaScript · CSS · HTML
+
+### 2019.09 - 2019.10: [Optimizing the website of a customer](https://github.com/entazis/robotmaster-next)
 
 Project Overview: This project aimed to improve the efficiency and performance of a customer's site by addressing issues with server-side rendering (SSR) React technology.
 
@@ -560,63 +586,63 @@ Solutions and Improvements:
 
 By resolving the initial misconfiguration and leveraging Next.js for static rendering, the project successfully optimized the site's performance, delivering a faster and more efficient user experience.
 
-Skills: Next.js
+**Skills:** Next.js
 
-## 2019.01 - 2019.07: [Landing Page of Programming School](https://github.com/entazis/landing-page-v2)
+### 2019.01 - 2019.07: [Landing Page of Programming School](https://github.com/entazis/landing-page-v2)
 
 Project Objective:
 The aim was to transition from a WordPress platform to a proprietary application. A designer had laid the groundwork with the creation of fundamental HTML, CSS, and JavaScript files to establish the visual design, along with minimal server-side logic for page rendering.
 
 Implemented Solution:
-I successfully migrated all existing functionalities from the legacy site to the new application, which included additional subpages, dynamic content features, localization capabilities, and database integration. I also implemented UTM tracking for marketing analytics. To optimize user experience and ensure effective deployment, I conducted A/B testing for certain features, establishing an experimental environment for this purpose. Final refinements were made to enhance site speed, with a focus on improving search engine optimization (SEO). Ultimately, the entire site was converted into a static format to further boost SEO performance during production.
+Successfully migrated all existing functionalities from the legacy site to the new application, which included additional subpages, dynamic content features, localization capabilities, and database integration. Also implemented UTM tracking for marketing analytics. To optimize user experience and ensure effective deployment, conducted A/B testing for certain features, establishing an experimental environment for this purpose. Final refinements were made to enhance site speed, with a focus on improving search engine optimization (SEO). Ultimately, the entire site was converted into a static format to further boost SEO performance during production.
 
-Skills: A/B Testing · Node.js · JavaScript · Git · Cascading Style Sheets (CSS) · HTML
+**Skills:** Node.js · JavaScript · A/B Testing · CSS · HTML
 
-## 2019.04 - 2019.06: [Automatic Email Reports (triggers)](https://github.com/entazis/email-triggers)
+### 2019.04 - 2019.06: [Automatic Email Reports (triggers)](https://github.com/entazis/email-triggers)
 
 Project Synopsis:
 The company aimed to engage users by sending automated reminders to encourage product usage, specifically for ongoing learning activities. The strategy involved dispatching tailored reports on a weekly basis, as well as reports reflecting the user's activities from the previous day and from a week prior.
 
 Technical Execution:
-I developed the server-side logic required to support this engagement initiative, complemented by designing the HTML email templates. The system was programmed to execute on a daily and weekly schedule, intelligently querying the database for users based on their recent activity—whether they were active the day before, in the last week, or precisely seven days ago. Upon identifying the relevant users, the process dynamically compiled personalized emails detailing their recent interactions with the product and dispatched these communications accordingly.
+Developed the server-side logic required to support this engagement initiative, complemented by designing the HTML email templates. The system was programmed to execute on a daily and weekly schedule, intelligently querying the database for users based on their recent activity—whether they were active the day before, in the last week, or precisely seven days ago. Upon identifying the relevant users, the process dynamically compiled personalized emails detailing their recent interactions with the product and dispatched these communications accordingly.
 
-Skills: JSON · MongoDB · Node.js · NoSQL · JavaScript · Git
+**Skills:** MongoDB · Node.js · JavaScript
 
-## 2019.03 - 2019.04: [Facebook Ads Exporter](https://github.com/entazis/facebook-ads-exporter)
+### 2019.03 - 2019.04: [Facebook Ads Exporter](https://github.com/entazis/facebook-ads-exporter)
 
 Project Overview:
 The objective was to replicate the functionality of a Google Ads data exporter, with the focus shifted to extracting data from Facebook Ads. The end goal was to achieve a similar output format in the spreadsheet as that of the Google Ads exporter.
 
 Solution Development:
-I identified an open-source tool that aligned closely with our requirements. After forking the repository, I customized the solution to fit our specific use case, ensuring seamless integration and data export from Facebook Ads into our desired spreadsheet format.
+Identified an open-source tool that aligned closely with our requirements. After forking the repository, customized the solution to fit our specific use case, ensuring seamless integration and data export from Facebook Ads into our desired spreadsheet format.
 
-Skills: Data Analytics · Google Apps Script · Git · Facebook Ads · Data Science · Google Sheets
+**Skills:** Data Analytics · Google Apps Script · Facebook Ads · Google Sheets
 
-## 2019.03 - 2019.04: Google Analytics Dashboard
+### 2019.03 - 2019.04: Google Analytics Dashboard
 
 Project Summary:
-The company possessed a wealth of data that was underutilized. My role was to organize this data effectively, enabling the company to harness it for informed decision-making processes.
+The company possessed a wealth of data that was underutilized. The role was to organize this data effectively, enabling the company to harness it for informed decision-making processes.
 
 Action Taken:
-I established a Google Analytics account to systematically gather pertinent data. Additionally, I formulated and standardized the usage of UTM tags to ensure consistent and meaningful data collection practices.
+Established a Google Analytics account to systematically gather pertinent data. Additionally, formulated and standardized the usage of UTM tags to ensure consistent and meaningful data collection practices.
 
-Skills: Data Analytics · Data Science
+**Skills:** Data Analytics · Data Science
 
-## 2019.01 - 2019.03: [Badges (gamification)](https://github.com/entazis/badges-module)
+### 2019.01 - 2019.03: [Badges (gamification)](https://github.com/entazis/badges-module)
 
 Project Context:
-The company aimed to enhance user engagement within their application by introducing a gamification feature. They decided to implement a badge system as the initial step towards this goal. The visual assets and designs for the badges were pre-defined and provided to me.
+The company aimed to enhance user engagement within their application by introducing a gamification feature. They decided to implement a badge system as the initial step towards this goal. The visual assets and designs for the badges were pre-defined and provided.
 
 Technical Contribution:
-My primary focus was on developing the server-side logic responsible for the criteria-based unlocking of badges. This involved creating algorithms that tracked user achievements and unlocked badges accordingly. Additionally, I addressed minor client-side challenges to ensure a seamless integration of the badge system into the user interface.
+Primary focus was on developing the server-side logic responsible for the criteria-based unlocking of badges. This involved creating algorithms that tracked user achievements and unlocked badges accordingly. Additionally, addressed minor client-side challenges to ensure a seamless integration of the badge system into the user interface.
 
-Skills: GitFlow · API Development · JSON · MongoDB · Node.js · NoSQL · JavaScript · REST APIs · Git
+**Skills:** API Development · MongoDB · Node.js · JavaScript · REST APIs
 
-## 2018.11 - 2019.02: Payment Page of Programming School
+### 2018.11 - 2019.02: Payment Page of Programming School
 
 The company aimed to transition from its existing multi-page payment system to a streamlined one-page application. This initiative was part of an effort to modernize the user interface in line with a new design provided by a professional designer.
 
-I was responsible for transferring the functionality of the legacy payment system to the new single-page application.
+Responsible for transferring the functionality of the legacy payment system to the new single-page application.
 
 - Implemented form validation mechanisms on both the client and server sides to ensure data integrity and user input accuracy.
 - Integrated internationalization (i18n) to accommodate multiple languages, thereby enhancing the application's global usability.
@@ -625,9 +651,9 @@ I was responsible for transferring the functionality of the legacy payment syste
 
 The project was successfully executed, resulting in a functional and aesthetically pleasing one-page payment application that aligns with the company's vision for a more efficient and user-friendly interface.
 
-Skills: Node.js · JavaScript · REST APIs · Git
+**Skills:** Node.js · JavaScript · REST APIs
 
-## 2018.07 - 2018.08: Growth Dashboard (AARRR metrics)
+### 2018.07 - 2018.08: Growth Dashboard (AARRR metrics)
 
 Project Contribution: Data Visualization Developer
 
@@ -635,45 +661,45 @@ Project Aim:
 The growth team required a comprehensive dashboard to visualize user activity and behavioral data, which would serve as a foundation for deriving insights and informing strategic business decisions.
 
 Solution Delivered:
-I started the development of a sophisticated dashboard that provides a visual representation of user engagement and patterns. My initial task involved [scripting a data transformation](https://github.com/entazis/user-activity-data-preparer) process that converted raw data from MongoDB into a structured format suitable for chart plotting. This enabled the seamless integration of complex datasets into the dashboard, allowing for intuitive analysis and reporting.
+Started the development of a sophisticated dashboard that provides a visual representation of user engagement and patterns. Initial task involved [scripting a data transformation](https://github.com/entazis/user-activity-data-preparer) process that converted raw data from MongoDB into a structured format suitable for chart plotting. This enabled the seamless integration of complex datasets into the dashboard, allowing for intuitive analysis and reporting.
 
-Furthermore, I integrated Google Analytics with the dashboard, providing access to key performance indicators such as page views and other relevant metrics. This integration offered a holistic view of user interactions and website performance, thereby enhancing the growth team's ability to make data-driven decisions.
+Furthermore, integrated Google Analytics with the dashboard, providing access to key performance indicators such as page views and other relevant metrics. This integration offered a holistic view of user interactions and website performance, thereby enhancing the growth team's ability to make data-driven decisions.
 
 The successful implementation of this dashboard has empowered the company with actionable insights, optimizing its approach to user engagement and growth strategy.
 
-Skills: Data Analytics · Python · Google Analytics · Data Science
+**Skills:** Data Analytics · Python · Google Analytics
 
-## 2018.07 - 2018.07: [Power Plant Dropout Web Scraper](https://github.com/entazis/power-plant-dropout-scraper)
+### 2018.07 - 2018.07: [Power Plant Dropout Web Scraper](https://github.com/entazis/power-plant-dropout-scraper)
 
 Project Objective:
 The company aimed to develop an application capable of monitoring power plant dropouts and notifying users promptly upon their occurrence.
 
 Technical Solution:
-I was responsible for designing and implementing the web scraping component of the project. This involved developing a script that systematically extracts dropout data from targeted websites. The collected data was then formatted and stored in a CSV file, ready for integration with the alert system. This functionality is crucial for the application's ability to provide real-time updates and maintain a high level of service reliability for the users.
+Responsible for designing and implementing the web scraping component of the project. This involved developing a script that systematically extracts dropout data from targeted websites. The collected data was then formatted and stored in a CSV file, ready for integration with the alert system. This functionality is crucial for the application's ability to provide real-time updates and maintain a high level of service reliability for the users.
 
-Skills: Python · Git · Data Science
+**Skills:** Python · Git
 
-## 2018.07 - 2018.07: [Weather Service Data Fix](https://github.com/entazis/weather-service-data-fix)
+### 2018.07 - 2018.07: [Weather Service Data Fix](https://github.com/entazis/weather-service-data-fix)
 
 Project Challenge:
 The company faced issues with incomplete weather data collection from various locations, leading to system disruptions due to missing timestamps.
 
 Solution Implemented:
-I developed a script designed to address the data gaps by filling them with estimated weather data, ensuring the application's stability and preventing crashes. To validate the effectiveness of this solution, I also introduced a series of test cases specifically tailored to assess the robustness of the data correction process.
+Developed a script designed to address the data gaps by filling them with estimated weather data, ensuring the application's stability and preventing crashes. To validate the effectiveness of this solution, also introduced a series of test cases specifically tailored to assess the robustness of the data correction process.
 
-Skills: Python · Git · Data Science
+**Skills:** Python · Git
 
-## 2018.01 - 2018.02: [Automatic Slack Registration](https://github.com/entazis/automatic-slack-registration)
+### 2018.01 - 2018.02: [Automatic Slack Registration](https://github.com/entazis/automatic-slack-registration)
 
 Project Objective:
 The online programming school sought to expand its Slack-based community by simplifying the registration process. The goal was to eliminate the need for users to navigate a lengthy and unfamiliar form-filling procedure.
 
 Technical Solution:
-I developed a Node.js application utilizing Puppeteer, a headless browser automation tool, to automate the registration process. The application initially registers using a placeholder email address and subsequently updates the registration to the user's actual email address. As a result, the user receives an email prompting them to set a new password, thereby granting them immediate access to the community's Slack workspace without the hassle of manual form submission.
+Developed a Node.js application utilizing Puppeteer, a headless browser automation tool, to automate the registration process. The application initially registers using a placeholder email address and subsequently updates the registration to the user's actual email address. As a result, the user receives an email prompting them to set a new password, thereby granting them immediate access to the community's Slack workspace without the hassle of manual form submission.
 
-Skills: Node.js · Git · Slack
+**Skills:** Node.js · Git · Slack
 
-## 2017.06 - 2018.01: [Customer Churn Prediction](https://github.com/entazis/churnacle-node)
+### 2017.06 - 2018.01: [Customer Churn Prediction](https://github.com/entazis/churnacle-node)
 
 Project Goal:
 CodeBerry Programming School required a predictive system to identify users at risk of churning, enabling proactive engagement to retain them.
@@ -687,62 +713,62 @@ Solution Developed:
 
 The result was a predictive model that significantly outperformed random selection, correctly identifying users likely to churn with a two-thirds accuracy rate. However, the model's performance was constrained by the limited amount of training data available from the company.
 
-In addition to the analytics work, I developed a Node.js application that automated the process of sending retention-focused emails through Intercom to the users identified by the model as at risk of churning.
+In addition to the analytics work, developed a Node.js application that automated the process of sending retention-focused emails through Intercom to the users identified by the model as at risk of churning.
 
-Outcome:
+**Outcome:**
 The project delivered a functional predictive system that provided actionable insights, allowing CodeBerry Programming School to engage with users more effectively and reduce churn rates.
 
-Skills: Deep Learning · Artificial Intelligence (AI) · MongoDB · R · NoSQL · Docker · Data ScienceSkills: Deep Learning · Artificial Intelligence (AI) · MongoDB · R · NoSQL · Docker · Data Science
+**Skills:** Deep Learning · Artificial Intelligence (AI) · Machine Learning · R · Docker
 
-## 2017.12 - 2018.01: [Rapstar](https://github.com/entazis/rapstar-project) - Generating hip-hop lyrics using neural networks
+### 2017.12 - 2018.01: [Rapstar](https://github.com/entazis/rapstar-project) - Generating hip-hop lyrics using neural networks
 
 Project Description:
-As a personal endeavor during my university years, I embarked on an experimental project to create an autonomous rap lyricist. Inspired by a Multi-layer Recurrent Neural Networks (RNN) project I discovered on GitHub, my goal was to train a neural network to generate hip-hop lyrics independently.
+Personal endeavor during university years to create an autonomous rap lyricist. Inspired by a Multi-layer Recurrent Neural Networks (RNN) project discovered on GitHub, the goal was to train a neural network to generate hip-hop lyrics independently.
 
 Technical Execution:
-I developed a web scraper to collect a substantial corpus of Hungarian hip-hop lyrics from a dedicated lyrics website. After performing the necessary data cleaning to refine the dataset, I initiated the training process for the RNN with these texts.
+Developed a web scraper to collect a substantial corpus of Hungarian hip-hop lyrics from a dedicated lyrics website. After performing the necessary data cleaning to refine the dataset, initiated the training process for the RNN with these texts.
 
-Outcome:
+**Outcome:**
 The project's end result was a rap-bot that produced text resembling coherent Hungarian lyrics, although the content lacked a meaningful sense. It became evident that achieving the creation of authentic and intelligent lyrics would require a more extensive dataset and prolonged training period.
 
-## 2015.02 - 2015.05: Teachable Remote Controller
+### 2015.02 - 2015.05: Teachable Remote Controller
 
-Project Overview:
+**Project Overview:**
 An independent university project focusing on embedded system design and hardware–software integration. The goal was to create a programmable remote controller capable of learning and reproducing infrared signals from other remotes.
 
-Key Contributions:
+**Key Contributions:**
 
 - Designed and assembled the integrated circuit and supporting hardware.
 - Soldered all components and connected them to a microcontroller.
 - Developed low-level C firmware to control input buttons, manage the IR receiver, and transmit stored signals.
 - Implemented a signal-recording system allowing users to teach the remote new commands dynamically.
 
-Outcome:
+**Outcome:**
 The final device successfully stored and replayed infrared signals from arbitrary remotes, functioning as a fully programmable universal controller.
 
-Skills: Embedded Systems · C Programming · Microcontrollers · Circuit Design · Infrared Communication · Soldering · Hardware Prototyping
+**Skills:** Embedded Systems · C Programming · Microcontrollers · Circuit Design · Infrared Communication · Soldering · Hardware Prototyping
 
-# Volunteering
+## Volunteering
 
-## Invisible University
+### Invisible University
 
-### 2019.01 - 2022.01: Chief Executive Officer
+#### 2019.01 - 2022.01: Chief Executive Officer
 
-### 2016.06 - 2019.05: Organizational Development Consultant and Team Lead
+#### 2016.06 - 2019.05: Organizational Development Consultant and Team Lead
 
 - Conducted in-depth process analysis to identify and resolve organizational inefficiencies.
 - Proposed strategic improvements to enhance operational effectiveness.
 - Developed and implemented performance metrics to quantify the impact of organizational changes.
 
-### 2018.09 - 2019.08: Nonviolent Communication Specialist
+#### 2018.09 - 2019.08: Nonviolent Communication Specialist
 
 Offered pro bono training in nonviolent communication (NVC) to young adults, fostering empathetic engagement and conflict resolution.
 
-### 2018.09 - 2018.11: Gamification Expert
+#### 2018.09 - 2018.11: Gamification Expert
 
 Provided pro bono gamification training to young adults, aiming to engage and motivate through the application of game-design elements in non-game contexts.
 
-### 2015.09 - 2018.02: Trainer of Trainers
+#### 2015.09 - 2018.02: Trainer of Trainers
 
 Facilitated comprehensive training programs for the educators at the Invisible University, covering a range of topics including:
 
@@ -752,6 +778,6 @@ Facilitated comprehensive training programs for the educators at the Invisible U
 - Principles of nonviolent communication
 - Constructive feedback methodologies
 
-### 2014.02 - 2014.11: Time Management Coach
+#### 2014.02 - 2014.11: Time Management Coach
 
 Conducted time management workshops for undergraduate students, focusing on enhancing their organizational skills and productivity.
