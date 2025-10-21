@@ -286,6 +286,18 @@ Credential ID: RTTTM2G3S9YQ
 
 **Impact:** Enabled proactive customer retention strategies reducing churn rates
 
+### Smart Retail Product Recognition System (2016-2017)
+
+- Led 3-person team through startup incubation process applying Lean methodology for problem validation
+- Conducted field research with 15+ shop owners and retail managers identifying key retail operation inefficiencies
+- Designed computer vision-based product identification system for barcode-free checkout using neural networks
+- Built prototype integrating TensorFlow, Keras, and Google Cloud Vision API
+- Documented scalability challenges and business feasibility analysis for startup incubator applications
+
+**Impact:** Transformed diploma thesis into viable startup concept through systematic customer research and technical prototyping
+
+**Skills:** TensorFlow · Keras · Google Cloud Vision API · Computer Vision · Machine Learning · Lean Methodology · Team Leadership · Product Research
+
 ## Volunteering
 
 ### Invisible University

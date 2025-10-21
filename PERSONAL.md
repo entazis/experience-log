@@ -439,6 +439,18 @@ Built a machine learning system to predict which students would churn. Trained m
 
 Personal project during university. Scraped Hungarian hip-hop lyrics, cleaned the data, and trained an RNN to generate rap lyrics. The output looked like Hungarian text but didn't really make sense—would have needed way more training data and time to get something actually good.
 
+### 2016.09 - 2017.06: Smart Retail Product Recognition System
+
+What started as a startup idea ended up becoming my diploma thesis—or maybe it was the other way around. Either way, we were trying to solve a real problem in retail.
+
+I led a 3-person team and we went through the whole startup thing: applied to incubators, did customer research with over 15 shop owners and retail managers, and tried to figure out if we could actually build something people would pay for. We were applying Lean methodology—talking to customers early and often before writing too much code.
+
+The technical goal was ambitious: use computer vision and neural networks to identify products in supermarkets without barcodes. Think checkout without scanning—just point a camera at your cart and the system figures out what you're buying. Built a prototype using TensorFlow, Keras, and Google Cloud Vision API to test the concept.
+
+The technology worked in controlled conditions, but we documented all the scalability issues we'd face in a real deployment: lighting variations, product variations, API costs at scale, etc. It was a great learning experience in both the technical side (computer vision is hard) and the business side (retail moves slowly and margins are thin).
+
+**Skills:** TensorFlow · Keras · Google Cloud Vision API · Computer Vision · Machine Learning · Lean Methodology · Team Leadership · Product Research
+
 ### 2015.02 - 2015.05: Teachable Remote Controller
 
 University project where I built a programmable IR remote from scratch. Designed the circuit, soldered all the components, wrote the C firmware for the microcontroller, and implemented a recording system so it could learn signals from other remotes. It worked—you could teach it any IR command and it would replay it.

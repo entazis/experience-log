@@ -731,6 +731,36 @@ Developed a web scraper to collect a substantial corpus of Hungarian hip-hop lyr
 **Outcome:**
 The project's end result was a rap-bot that produced text resembling coherent Hungarian lyrics, although the content lacked a meaningful sense. It became evident that achieving the creation of authentic and intelligent lyrics would require a more extensive dataset and prolonged training period.
 
+### 2016.09 - 2017.06: Smart Retail Product Recognition System
+
+**Project Overview:**
+Budapest University of Technology and Economics – Diploma Thesis and Startup Initiative
+
+The project originated as a startup concept and evolved into a comprehensive diploma thesis. The initiative aimed to revolutionize retail operations through computer vision technology, specifically targeting product identification and checkout automation.
+
+**Research and Validation:**
+
+- Conducted extensive field research engaging with over 15 shop owners and retail managers to identify operational inefficiencies in retail environments.
+- Applied Lean methodology principles to validate problem hypotheses and prototype technological solutions iteratively.
+- Led a 3-person team through multiple startup incubator application processes, developing business models and go-to-market strategies.
+
+**Technical Implementation:**
+
+- Designed a computer vision-based system for automated product identification in supermarket environments, exploring barcode-free checkout possibilities.
+- Leveraged neural networks and cloud-based machine learning APIs to achieve product recognition capabilities.
+- Built functional prototype integrating TensorFlow and Keras for model training and inference, combined with Google Cloud Vision API for enhanced recognition accuracy.
+
+**Analysis and Documentation:**
+
+- Comprehensively documented scalability challenges including lighting variability, product packaging variations, and computational resource requirements.
+- Evaluated business feasibility considering API costs at scale, hardware infrastructure requirements, and retail industry adoption barriers.
+- Produced detailed technical and business documentation suitable for academic evaluation and investor presentations.
+
+**Outcome:**
+Successfully transformed an entrepreneurial concept into a rigorous academic project, demonstrating both technical feasibility and identifying critical challenges for real-world deployment in retail environments.
+
+**Skills:** TensorFlow · Keras · Google Cloud Vision API · Computer Vision · Machine Learning · Lean Methodology · Team Leadership · Product Research
+
 ### 2015.02 - 2015.05: Teachable Remote Controller
 
 **Project Overview:**
