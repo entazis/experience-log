@@ -37,6 +37,14 @@ Key Initiatives:
 - **Deployment Protocol & Security:** Standardized release management, improved production reliability, and introduced technical/security review policies.
 - **Team Leadership:** Conducted weekly technical meetings, daily Slack stand-ups, and mentoring sessions for new hires.
 
+Culture and Mentorship:
+
+- Beyond technical leadership, I actively shaped the team culture to promote open communication and continuous learning.
+- I encouraged the use of cameras during remote meetings to strengthen non-verbal communication and create a friendlier, more collaborative environment.
+- I also mentored senior developers by addressing recurring code issues, promoting refactoring practices, and introducing design patterns.
+- I emphasized the importance of professional growth — encouraging reading, watching tutorials, and staying current with emerging technologies.
+- I advocated for team interests with management during organizational challenges, including compensation delays, ensuring developers felt supported.
+
 **Skills:** Leadership · Microservices · NestJS · Redis · TypeScript · AI Agents · MCP · Prometheus
 
 #### 2022.02 - 2024.12: Senior Software Engineer

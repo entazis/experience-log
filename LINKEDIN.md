@@ -32,6 +32,14 @@ Leading technical architecture and team management for B2B2C IoT platform servin
 - Introduced Prometheus monitoring for comprehensive system observability across all services
 - Managed distributed tech team of 5 engineers across multiple time zones, conducting daily stand-ups and weekly technical meetings
 
+#### Culture and Mentorship
+
+- Actively shaped team culture to promote open communication and continuous learning
+- Encouraged camera-on policy during remote meetings to strengthen non-verbal communication and create a friendlier, more collaborative environment
+- Mentored senior developers by addressing recurring code issues, promoting refactoring practices, and introducing design patterns
+- Emphasized professional growth by encouraging reading, watching tutorials, and staying current with emerging technologies
+- Advocated for team interests with management during organizational challenges, including compensation delays
+
 #### Technologies
 
 NestJS · TypeScript · Redis · Microservices · AI Agents · MCP · Prometheus · GitHub Actions

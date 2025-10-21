@@ -33,6 +33,12 @@ I'm currently managing a distributed team of engineers across different time zon
 
 On the technical side, I built a dynamic model loading system that generates runtime JSON schemas and automates database indexes, triggers, and validations. It's cut down schema maintenance time significantly and made our data models way more consistent across services.
 
+Beyond the technical work, I've focused on building a team culture that actually works for remote engineering. I pushed for cameras-on during meetings—not as a surveillance thing, but because non-verbal communication matters when you're trying to build trust across time zones. It's made a real difference in how collaborative the team feels.
+
+I also spend time mentoring senior developers, not just juniors. Sometimes the best engineers have blind spots around refactoring or design patterns, and addressing those recurring code issues has improved our overall code quality. I encourage the team to keep learning—reading, watching tutorials, staying current with new tech. It's not just about getting work done; it's about getting better at what we do.
+
+There have also been tough moments—like when the company struggled with timely salary payments. I spent a lot of energy advocating for the developers with management during those periods, making sure their concerns were heard and addressed. It's not the glamorous side of leadership, but standing up for your team when things get difficult is part of the job.
+
 **Skills:** Leadership · Microservices · NestJS · Redis · TypeScript · AI Agents · MCP · Prometheus
 
 #### 2022.02 - 2024.12: Senior Software Engineer
