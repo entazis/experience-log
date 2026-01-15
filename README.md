@@ -243,6 +243,67 @@ Credential ID: **RTTTM2G3S9YQ**
 
 ## Projects
 
+### 2025.11 – 2026.01: Core v3.0 Architecture & Permission System
+
+**Project Overview:**
+Defined and implemented foundational architectural changes for the next major platform version, focusing on permissions, schema lifecycle, and service boundaries.
+
+**Key Contributions:**
+
+- Designed a hierarchical permission system covering paths, endpoints, and applications.
+- Split core responsibilities into domain-focused services (core-bds vs core-app).
+- Refactored schema access using strategy patterns (MQTT vs direct Redis).
+- Eliminated obsolete services to reduce operational and cognitive complexity.
+
+**Outcome:** Improved platform security, reduced architectural coupling, and established a scalable foundation for future product evolution.
+
+**Skills:** Architecture Design · Access Control · NestJS · Redis · TypeScript · Strategy Pattern
+
+### 2025.10 – 2025.12: Dynamic Schema Lifecycle & Index Management
+
+**Project Overview:** Reworked how schemas are loaded, validated, indexed, and evolved at runtime across partitions.
+
+**Key Contributions:**
+
+- Implemented dynamic schema loading per partition.
+- Automated index and trigger generation directly from data model schemas.
+- Enabled schema-change reinitialization flows with full test coverage.
+- Introduced temporary and dynamically matched indices based on query analysis.
+
+**Outcome:** Significantly reduced manual schema maintenance while improving query performance and correctness.
+
+**Skills:** JSON Schema · Dynamic Indexing · Redis · Data Modeling · Testing Automation
+
+### 2025.09 – 2025.11: MCP Server Customization & AI Tooling Integration
+
+**Project Overview:** Extended Model Context Protocol (MCP) tooling to better match internal development workflows and system architecture.
+
+**Key Contributions:**
+
+- Built a custom MCP implementation tailored to internal service patterns.
+- Exposed structured endpoint metadata (schemas, descriptions, I/O contracts).
+- Enabled AI agents to safely interact with live core services.
+- Standardized AI-agent documentation and usage rules.
+
+**Outcome:** Established a reliable foundation for AI-assisted development beyond experimentation.
+
+**Skills:** MCP · AI Tooling · API Design · Developer Experience · Automation
+
+### 2025.08 – 2025.10: CI, Testing, and Developer Ergonomics Hardening
+
+**Project Overview:** Strengthened development reliability by addressing systemic testing and workflow issues introduced during large-scale migrations.
+
+**Key Contributions:**
+
+- Repaired broken test suites across multiple services.
+- Added debug launch configurations for faster test iteration.
+- Enforced formatting and commit standards via git hooks.
+- Reduced bootstrap time and noise through parallel initialization.
+
+**Outcome:** Restored trust in automated testing and improved day-to-day developer efficiency.
+
+**Skills:** CI/CD · Jest · Git Hooks · Developer Tooling · Debugging
+
 ### 2025.09: Deployment Protocol & Security Hardening
 
 Unified all repositories under BeamLive GitHub organization and established robust deployment practices:
