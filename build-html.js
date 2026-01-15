@@ -25,6 +25,24 @@ function generateHtml() {
     throw new Error(`Markdown file not found: ${CONFIG.inputFile}`);
   }
 
+  // Configure marked to generate header IDs
+  const renderer = {
+    heading(text, level) {
+      // Strip HTML tags to get plain text for the slug
+      const plainText = text.replace(/<[^>]*>/g, "");
+      // Generate a GitHub-style slug (lowercase, spaces to hyphens, remove special chars)
+      const slug = plainText
+        .toLowerCase()
+        .replace(/[^\w\s-]/g, "")
+        .replace(/\s+/g, "-")
+        .replace(/-+/g, "-")
+        .trim();
+      return `<h${level} id="${slug}">${text}</h${level}>`;
+    },
+  };
+
+  marked.use({ renderer });
+
   const markdownContent = fs.readFileSync(markdownPath, "utf8");
   const htmlContent = marked(markdownContent);
 
@@ -138,6 +156,17 @@ function generateHtml() {
         .markdown-body img {
             max-width: 100%;
             height: auto;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .markdown-body h1[id],
+        .markdown-body h2[id],
+        .markdown-body h3[id],
+        .markdown-body h4[id] {
+            scroll-margin-top: 20px;
         }
     </style>
 </head>
