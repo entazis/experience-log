@@ -168,17 +168,98 @@ function generateHtml() {
         .markdown-body h4[id] {
             scroll-margin-top: 20px;
         }
+        
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: #0969da;
+            color: #ffffff;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        
+        .back-to-top.visible {
+            display: flex;
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .back-to-top:hover {
+            background-color: #0860ca;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .back-to-top:active {
+            transform: translateY(0);
+        }
+        
+        @media (max-width: 767px) {
+            .back-to-top {
+                bottom: 20px;
+                right: 20px;
+                width: 45px;
+                height: 45px;
+                font-size: 20px;
+            }
+        }
     </style>
 </head>
 <body>
     <article class="markdown-body">
         ${htmlContent}
     </article>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">
+        ↑
+    </button>
     <script>
         // Initialize syntax highlighting
         if (typeof hljs !== 'undefined') {
             hljs.highlightAll();
         }
+        
+        // Back to top button functionality
+        (function() {
+            const backToTopButton = document.getElementById('backToTop');
+            const scrollThreshold = 300; // Show button after scrolling 300px
+            
+            function toggleBackToTopButton() {
+                if (window.pageYOffset > scrollThreshold) {
+                    backToTopButton.classList.add('visible');
+                } else {
+                    backToTopButton.classList.remove('visible');
+                }
+            }
+            
+            function scrollToTop() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            }
+            
+            // Show/hide button based on scroll position
+            window.addEventListener('scroll', toggleBackToTopButton);
+            
+            // Scroll to top when button is clicked
+            backToTopButton.addEventListener('click', scrollToTop);
+            
+            // Initial check
+            toggleBackToTopButton();
+        })();
     </script>
 </body>
 </html>`;
