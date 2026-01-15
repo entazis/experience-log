@@ -28,6 +28,14 @@ Senior Software Engineer with 7+ years driving technical innovation in high-grow
 - Coordinated multiple service migrations (connector, authenticator, notification, central user database) and ensured successful integration under v2.2.
 - Introduced daily stand-ups, reporting systems, and continuous improvement processes.
 - Applied AI-assisted development using MCP agents, achieving 5x productivity gains in code migration and refactoring tasks.
+- Owned v3.0 technical roadmap definition, including permission model redesign, schema handling strategy, and service boundary decisions.
+- Led architectural separation of core services (C-BDS) and Redis-backed schema-less services (R-BDS), improving flexibility and long-term maintainability.
+- Designed and implemented a multi-layer permission system (path-, endpoint-, and app-level), resolving long-standing access control limitations.
+- Reworked schema lifecycle management: dynamic schema loading by partition, runtime index/trigger generation, and schema-change reinitialization flows.
+- Removed legacy services (id-manager, config, session) by consolidating responsibilities into cleaner core abstractions.
+- Introduced async-local-storage–based context management to improve request isolation and observability.
+- Established enforced code quality gates: formatting hooks, commit message rules, static analysis, and test suites per core service.
+- Regularly mediated technical and interpersonal conflicts, unblocking delivery while maintaining team trust and focus.
 
 Key Initiatives:
 
@@ -35,7 +43,14 @@ Key Initiatives:
 - **Monorepo Transition:** Merged 15+ repositories into the Beam Live Core monorepo (over 6,600 commits preserved), enabling faster deployments and simplified dependency management.
 - **AI Agent Integration:** Established MCP servers and AI agent protocols for automating code review, deployment, and documentation tasks.
 - **Deployment Protocol & Security:** Standardized release management, improved production reliability, and introduced technical/security review policies.
-- **Team Leadership:** Conducted weekly technical meetings, daily Slack stand-ups, and mentoring sessions for new hires.
+- **Team Leadership & Collaboration:** Established structured technical alignment processes, stakeholder communication, and engineering mentorship practices (see Leadership & Collaboration section below).
+
+Leadership & Collaboration:
+
+- Acted as the primary technical counterpart for leadership, translating architectural risks and trade-offs into actionable decisions.
+- Ran weekly technical alignment meetings and maintained continuous written reporting to stakeholders.
+- Introduced structured request-shaping and prioritization practices to prevent reactive, low-impact work.
+- Onboarded and mentored new engineers, including reviewing mobile client work (iOS/Android) and backend integrations.
 
 Culture and Mentorship:
 
