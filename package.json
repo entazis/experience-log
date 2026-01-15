@@ -1,0 +1,15 @@
+{
+  "name": "experience-log",
+  "version": "1.0.0",
+  "description": "Work log of my entire career",
+  "scripts": {
+    "build": "node build-html.js",
+    "build:watch": "node build-html.js --watch"
+  },
+  "devDependencies": {
+    "marked": "^9.1.6"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
