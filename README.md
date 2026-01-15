@@ -13,7 +13,7 @@ Tech Lead & Full-Stack Engineer | 7+ Years Building Scalable Systems | Team Lead
 
 ## About
 
-Senior Software Engineer with 7+ years driving technical innovation in high-growth startups. Proven track record in building scalable microservices architectures, leading distributed teams, and achieving measurable productivity improvements through AI-assisted development. Specialized in backend systems, DevOps automation, and creating maintainable architectures that scale. Led successful migrations of 15+ repositories into unified monorepo architectures and established deployment protocols that enhanced system security and reliability.
+Senior Software Engineer with 7+ years driving technical innovation in high-growth startups. Proven track record in building scalable microservices architectures, leading distributed teams, and achieving measurable productivity improvements through AI-assisted development. Specialized in backend systems, DevOps automation, and creating maintainable architectures that scale. Led successful migrations of 15+ repositories into unified monorepo architectures and established deployment protocols that enhanced system security and reliability. In recent years, I’ve increasingly worked in ambiguous problem spaces — defining direction, making trade-offs, and owning outcomes beyond individual features or services.
 
 ## Experience
 
