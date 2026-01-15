@@ -8,12 +8,17 @@ Tech Lead & Full-Stack Engineer | 7+ Years Building Scalable Systems | Team Lead
 - [Experience](#experience)
 - [Education](#education)
 - [Certifications](#certifications)
-- [Projects](#projects)
+- [How I Work](#how-i-work)
 - [Volunteering](#volunteering)
+- [Projects](#projects)
 
 ## About
 
-Senior Software Engineer with 7+ years driving technical innovation in high-growth startups. Proven track record in building scalable microservices architectures, leading distributed teams, and achieving measurable productivity improvements through AI-assisted development. Specialized in backend systems, DevOps automation, and creating maintainable architectures that scale. Led successful migrations of 15+ repositories into unified monorepo architectures and established deployment protocols that enhanced system security and reliability. In recent years, I’ve increasingly worked in ambiguous problem spaces — defining direction, making trade-offs, and owning outcomes beyond individual features or services.
+I am a senior software engineer and tech lead with 7+ years of experience building and evolving complex, distributed systems in high-growth environments. My work sits at the intersection of architecture, delivery, and team effectiveness — especially in situations where requirements are unclear, systems are already in motion, and decisions have long-term consequences.
+
+Over the past years, I have increasingly operated in ambiguous problem spaces: defining technical direction, making explicit trade-offs, and taking ownership of outcomes beyond individual features or services. I focus on reducing unnecessary complexity, establishing strong foundations, and enabling teams to move faster without sacrificing reliability or clarity.
+
+My core strengths are backend systems, DevOps automation, and designing architectures that remain understandable as they scale. I am particularly interested in developer experience, system ergonomics, and using AI-assisted workflows to amplify human judgment rather than replace it
 
 ## Experience
 
@@ -21,240 +26,99 @@ Senior Software Engineer with 7+ years driving technical innovation in high-grow
 
 #### 2025.01 - Present: Tech Lead
 
-- Led the migration to Beam v2.2 and the transition to a unified monorepo architecture.
-- Established dynamic model loading, schema automation, and AI-driven development workflows.
-- Introduced Prometheus monitoring, MCP servers, and new deployment protocols.
-- Managed a distributed tech team, onboarded new engineers, and implemented static code analysis and CI improvements.
-- Coordinated multiple service migrations (connector, authenticator, notification, central user database) and ensured successful integration under v2.2.
-- Introduced daily stand-ups, reporting systems, and continuous improvement processes.
-- Applied AI-assisted development using MCP agents, achieving 5x productivity gains in code migration and refactoring tasks.
-- Owned v3.0 technical roadmap definition, including permission model redesign, schema handling strategy, and service boundary decisions.
-- Led architectural separation of core services (C-BDS) and Redis-backed schema-less services (R-BDS), improving flexibility and long-term maintainability.
-- Designed and implemented a multi-layer permission system (path-, endpoint-, and app-level), resolving long-standing access control limitations.
-- Reworked schema lifecycle management: dynamic schema loading by partition, runtime index/trigger generation, and schema-change reinitialization flows.
-- Removed legacy services (id-manager, config, session) by consolidating responsibilities into cleaner core abstractions.
-- Introduced async-local-storage–based context management to improve request isolation and observability.
-- Established enforced code quality gates: formatting hooks, commit message rules, static analysis, and test suites per core service.
-- Regularly mediated technical and interpersonal conflicts, unblocking delivery while maintaining team trust and focus.
+I lead backend architecture and technical direction for BeamLive’s core platform, with responsibility spanning system design, delivery quality, and team alignment.
 
-Key Initiatives:
+**Key responsibilities and impact:**
 
-- **Dynamic Model Loading (Extended Bio):** Unified Beam data models, generated runtime JSON schemas, and automated database index, trigger, and validation generation.
-- **Monorepo Transition:** Merged 15+ repositories into the Beam Live Core monorepo (over 6,600 commits preserved), enabling faster deployments and simplified dependency management.
-- **AI Agent Integration:** Established MCP servers and AI agent protocols for automating code review, deployment, and documentation tasks.
-- **Deployment Protocol & Security:** Standardized release management, improved production reliability, and introduced technical/security review policies.
-- **Team Leadership & Collaboration:** Established structured technical alignment processes, stakeholder communication, and engineering mentorship practices (see Leadership & Collaboration section below).
+- Owned the technical definition of the v3.0 roadmap, including permission model redesign, schema lifecycle strategy, and service boundary decisions.
+- Led the transition to a unified core monorepo, migrating 15+ repositories while preserving full history (6,600+ commits).
+- Designed and implemented dynamic model loading with runtime JSON schema generation, enabling automated index, trigger, and validation creation.
+- Architected the separation of core domain services (C-BDS) and Redis-backed schema-less services (R-BDS), improving flexibility and long-term maintainability.
+- Introduced a multi-layer permission system (path-, endpoint-, and app-level), resolving long-standing access control limitations.
+- Established standardized deployment protocols, technical and security review gates, and improved production reliability.
+- Built and customized MCP (Model Context Protocol) servers to enable safe, structured AI-agent interaction with backend services.
+- Systematically introduced AI-assisted development workflows, achieving ~5× productivity gains in large-scale migrations and refactoring.
 
-Leadership & Collaboration:
+**Team leadership and collaboration:**
 
+- Managed and mentored a distributed team of backend and frontend engineers.
+- Ran weekly technical alignment meetings and daily async stand-ups.
 - Acted as the primary technical counterpart for leadership, translating architectural risks and trade-offs into actionable decisions.
-- Ran weekly technical alignment meetings and maintained continuous written reporting to stakeholders.
-- Introduced structured request-shaping and prioritization practices to prevent reactive, low-impact work.
-- Onboarded and mentored new engineers, including reviewing mobile client work (iOS/Android) and backend integrations.
+- Introduced request-shaping and prioritization practices to avoid reactive, low-impact work.
+- Mediated technical and interpersonal conflicts to maintain delivery focus and team trust.
 
-Culture and Mentorship:
-
-- Beyond technical leadership, I actively shaped the team culture to promote open communication and continuous learning.
-- I encouraged the use of cameras during remote meetings to strengthen non-verbal communication and create a friendlier, more collaborative environment.
-- I also mentored senior developers by addressing recurring code issues, promoting refactoring practices, and introducing design patterns.
-- I emphasized the importance of professional growth — encouraging reading, watching tutorials, and staying current with emerging technologies.
-- I advocated for team interests with management during organizational challenges, including compensation delays, ensuring developers felt supported.
-
-**Skills:** Leadership · Microservices · NestJS · Redis · TypeScript · AI Agents · MCP · Prometheus
+**Skills:** Leadership · Architecture · Microservices · NestJS · TypeScript · Redis · AI Agents · MCP · CI/CD
 
 #### 2022.02 - 2024.12: Senior Software Engineer
 
-- Designed and built APIs using Node.js and TypeScript, delivering low-latency solutions for critical systems, resulting in 40% faster response times.
-- Developed a nano-service engine and -editor enabling downtime-free feature creation.
-- Led the migration from PostgreSQL and HTTP to Redis and MQTT technologies, optimizing performance for high-scale environments.
-- Implemented database replication/sharding, and created a testing framework enhancing system stability and reducing maintenance costs.
+As a senior engineer, I focused on scaling the platform’s backend architecture while improving reliability, performance, and developer experience.
 
-Key Projects:
+- Designed and built low-latency APIs in Node.js and TypeScript, reducing response times by up to 40%.
+- Led the evolution from PostgreSQL/HTTP-based workflows to Redis- and MQTT-based architectures for real-time use cases.
+- Designed and implemented a nano-service engine and editor, enabling customer-specific workflows without downtime.
+- Built a comprehensive integration testing framework and CI pipelines, increasing test coverage by ~70%.
+- Implemented database replication, sharding strategies, and dynamic indexing.
 
-- Nano-services: Scalable architecture, 50% downtime reduction.
-- Automated Testing: Applied Jest, increasing coverage by 70%.
-- Redis Clustering: Improved response time and fault tolerance.
-- Message Queues: Enhanced load balancing and multi-tenancy.
-- MQTT Load Balancing: 30% code reduction, 40% faster deployment.
-- Location Service: Real-time tracking and geofencing.
-- Context Management: Multi-context services, 70% faster deployment.
-- Admin Tools: Configurable editors, 60% maintenance time reduction.
-- Transaction Handling: Transaction-based operations, reduced conflicts.
-- Dynamic Indexing: Automated database index creation and update based on data schemas.
-- Real-time Balance: Dynamic transaction tracking.
-- Notification Engine: Template-based notifications.
-- Continuous Integration: GitHub workflows, increased reliability.
-- Graph Database: Efficient relationship handling.
-- Spreadsheet Calculator: Simplified pricing logic.
-
-**Skills:** TypeScript · NestJS · Redis · Jest · Microservices · Multi-Tenant Management · Message Queue
+**Skills:** NestJS · TypeScript · Redis · MQTT · Jest · Microservices · Multi-Tenant Systems
 
 #### 2020.08 - 2022.01: Full Stack Software Developer & Product Owner
 
-- Architected and shipped new features for the administrative platform, improving scalability and performance.
-- Initiated a system redesign that boosted performance and scalability, ensuring adaptability to future requirements.
-- Improved code quality by 40% through core component extraction, simplifying the codebase.
+- Shipped and evolved administrative platforms used by internal teams and customers.
+- Initiated system redesigns to improve scalability and long-term maintainability.
+- Reduced codebase complexity through shared core components and architectural refactors.
 
-**Skills:** NestJS · TypeScript · MongoDB · PostgreSQL · Redis · Angular · React · MQTT
+**Skills:** NestJS · TypeScript · MongoDB · PostgreSQL · Redis · Angular · React
 
 ### [CodeBerry Programming School](https://codeberryschool.com/)
 
-#### 2018.10 - 2020.08: Software Developer
+#### 2018 - 2020: Software Developer / Data Analyst / Mentor
 
-Core Development Areas:
+- Built and maintained web applications, landing pages, payment flows, and internal tools.
+- Developed data dashboards, analytics pipelines, and AARRR-based growth metrics.
+- Implemented gamification systems and automated communication workflows.
+- Mentored students and junior developers in practical web development.
 
-- Web Applications & Websites: Created and enhanced web-based platforms, ensuring a seamless user experience.
-- Landing & Payment Pages: Revitalized the online presence with redesigned landing and payment pages, optimizing conversion rates.
-- User Experience (UX) Improvements: Implemented UX upgrades and automated email systems to engage users effectively.
-- Gamification Features: Developed a badge system to gamify the user experience, fostering increased interaction and retention.
-- Data Extraction Tools: Crafted web scrapers to gather and process data, supporting various operational needs.
+**Skills:** Node.js · MongoDB · GraphQL · React · Data Analytics · Google Analytics
 
-**Skills:** Node.js · MongoDB · GraphQL · API Development · Docker · JavaScript · React.js
+#### 2017 - 2018: Data Scientist Intern and Machine Learning Engineer
 
-#### 2018.06 - 2020.08: Data Analyst
-
-Key Analytical Functions:
-
-- Data Visualization: Crafted intuitive visual representations of complex datasets, facilitating easier understanding and insight generation.
-- Google Analytics Configuration: Configured and customized Google Analytics for optimal data tracking and reporting.
-- Data Mining: Extracted valuable insights from diverse data sources, including databases, Google Analytics, Google Ads, and Facebook Ads.
-- Ad Campaign Analysis: Performed detailed statistical analyses of advertising campaigns, evaluating channels, mediums, and sources.
-- AARRR Metrics: Monitored and reported on critical AARRR metrics (Acquisition, Activation, Retention, Referral, Revenue), traffic, conversion rates, and user retention.
-
-**Skills:** Data Analytics · MongoDB · Google Data Studio · Google Analytics
-
-#### 2018.09 - 2019.03: Code Mentor
-
-Guided and mentored students in coding practices, helping them build practical skills through projects in web development.
-
-**Skills:** Cascading Style Sheets (CSS) · JavaScript · HTML
-
-#### 2017.06 - 2018.06: Data Scientist Intern and Machine Learning Engineer
-
-Key Contributions:
-
-- Predicting customer churn: developed predictive machine learning models focused on customer churn prediction, contributing to customer retention strategies.
+- Developed predictive machine learning models focused on customer churn prediction, contributing to customer retention strategies.
 - Conducted correlation analysis to uncover meaningful relationships within data, driving business insights.
 
 **Skills:** Machine Learning · Node.js · MongoDB · Data Analytics · R · Artificial Intelligence (AI)
-
-### Freelancing
-
-#### 2018.08 - 2020.08: Full Stack Developer with Data Analytics experience
-
-- Built custom websites, applications, and web scrapers for clients improving user experience and performance.
-- Developed server-side applications and static sites ensuring efficient and responsive client solutions.
-- Managed data analytics tasks, including the creation of dashboards and reports to support client decision-making.
-
-**Skills:** Python · Next.js · Node.js · MongoDB · React · JavaScript
-
-### [DreamJobs](https://dreamjobs.hu/en)
-
-#### 2019.03 - 2019.05: Data Analyst
-
-- Set up Google Analytics to track and analyze website traffic effectively.
-- Generated statistics and charts to visualize the performance of advertising campaigns, including analysis of various channels and sources.
-
-**Skills:** Data Analytics · Google Data Studio · Google Analytics
-
-### [Welcome.Chat](https://designterminal.org/en)
-
-#### 2018.09 - 2019.02: Data Analyst
-
-- Conducted customer interviews to gather qualitative insights and feedback.
-- Performed data analysis on web pages with chat support to understand user interactions and improve the support experience.
-
-**Skills:** Data Analytics · Google Analytics
-
-### [Dmlab](https://dmlab.hu/en/)
-
-#### 2018.07: Data Engineer
-
-- Developed web scraping scripts in Python to collect data on energy company downtime, improving the company's ability to respond to power disruptions.
-- Identified and corrected data integrity issues, ensuring the reliability and accuracy of datasets for internal use.
-
-**Skills:** Python · Data Analytics · Git
-
-### [Budapest University of Technology and Economics](https://vik.bme.hu/en/)
-
-#### 2016.09 - 2016.12: Project Management Teaching Assistant
-
-- Assisted with lectures, and provided support in delivering educational content.
-- Corrected project documents, and ensured the accuracy and quality of student submissions.
-
-**Skills:** Project Management
-
-### [SANXO](https://sanxo.eu/)
-
-#### 2015.06 - 2015.08: Software Developer Intern
-
-Developed a computer vision program utilizing advanced multi-integration camera technology to measure the speed of any moving object.
-
-**Skills:** OpenCV · Computer Vision
 
 ## Education
 
 ### [Budapest University of Technology and Economics](https://vik.bme.hu/en/)
 
-#### 2016 - 2018: Master of Science (MSc), Electrical Engineering
-
-- Computer-based Systems specialization
-- Smart City sub-specialization
-
-#### 2012 - 2015: Bachelor of Science (BSc), Electrical Engineering
-
-- Computer-based Systems specialization.
+- MSc, Electrical Engineering — Computer-Based Systems (2016–2018)
+- BSc, Electrical Engineering — Computer-Based Systems (2012–2015)
 
 ## Certifications
 
-### AWS Certified Solutions Architect – Associate *(Course Completed)*
+- AWS Certified Solutions Architect – Associate *(Course Completed, 2024)*
+- Ethical Hacking From Scratch - zSecurity
+- Go: The Complete Developer's Guide
+- Deep Learning & Neural Networks - DeepLearning.AI
 
-**Udemy** — *Completed 2024*
+## How I Work
 
-[Course link](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03)
+- I optimize for long-term clarity, not short-term speed.
+- I prefer making trade-offs explicit rather than letting complexity accumulate silently.
+- I believe strong systems come from good constraints, not unlimited flexibility.
+- I use AI as an amplifier for human judgment, not a replacement for it.
+- I regularly revisit and adjust my principles based on real outcomes, not theory.
 
-**Overview:** Completed the full preparation course for the AWS Solutions Architect Associate certification, gaining hands-on understanding of AWS cloud infrastructure, deployment models, and architecture design.  
-**Skills:** AWS · Cloud Architecture · EC2 · S3 · RDS · Lambda · CloudFormation · IAM · Networking
+## Volunteering
 
-### Learn Ethical Hacking From Scratch
+### Invisible University
 
-**zSecurity** — *Issued Jan 2021*
+- Chief Executive Officer (2019–2022)
+- Organizational Development Consultant & Team Lead
+- Nonviolent Communication Specialist
+- Trainer of Trainers
 
-Credential ID: **UC-93247c58-26b9-441c-8e99-aab40fd05cd3**
-
-**Skills:** Ethical Hacking
-
-### Go: The Complete Developer's Guide (Golang)
-
-**Udemy** — *Issued May 2018*  
-
-Credential ID: **UC-VO6G9G6L**
-
-**Skills:** Golang
-
-### Convolutional Neural Networks
-
-**DeepLearning.AI** — *Issued Jan 2018*  
-
-Credential ID: **PQR3G7RXKTQZ**
-
-**Skills:** Artificial Intelligence (AI) · Machine Learning · Deep Learning · Computer Vision
-
-### Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
-
-**DeepLearning.AI** — *Issued Jan 2018*
-
-Credential ID: **8B2LKZHCJETV**
-
-**Skills:** Deep Learning · Machine Learning · Artificial Intelligence (AI)
-
-### Neural Networks and Deep Learning
-
-**DeepLearning.AI** — *Issued Jan 2018*
-
-Credential ID: **RTTTM2G3S9YQ**
-
-**Skills:** Machine Learning · Deep Learning · Artificial Intelligence (AI) · Python
+Focused on organizational development, leadership training, communication, and personal effectiveness.
 
 ## Projects
 
@@ -265,7 +129,7 @@ Defined and implemented foundational architectural changes for the next major pl
 
 **Key Contributions:**
 
-- Designed a hierarchical permission system covering paths, endpoints, and applications.
+- Designed a hierarchical permission system covering data paths, endpoints, and applications.
 - Split core responsibilities into domain-focused services (core-bds vs core-app).
 - Refactored schema access using strategy patterns (MQTT vs direct Redis).
 - Eliminated obsolete services to reduce operational and cognitive complexity.
@@ -359,9 +223,9 @@ Drastically reduced schema maintenance time and improved consistency across serv
 
 **Skills:** JSON Schema · Runtime Validation · NestJS · TypeScript · Automation · Database Indexing · Schema Design · Redis · Metadata Management
 
-### 2025.07 - 2025.09: Beam Live Monorepo & DevOps Ecosystem
+### 2025.07 - 2025.09: Monorepo & DevOps Ecosystem
 
-Consolidated 15+ repositories into a single Beam Live Core Monorepo:
+Consolidated 15+ repositories into a single Core Monorepo:
 
 - Migrated 6,674 commits with full version history, preserving complete development timeline.
 - Achieved 5x productivity increase in code migration and refactoring through systematic use of AI agents.
@@ -373,7 +237,7 @@ Consolidated 15+ repositories into a single Beam Live Core Monorepo:
 
 **Skills:** Monorepo · DevOps · Prometheus · AI Agents · NestJS · TypeScript · GitHub Actions · CI/CD
 
-### 2025.03 - 2025.08: Beam v2.2 Migration & System Stabilization
+### 2025.03 - 2025.08: v2.2 Migration & System Stabilization
 
 **Project Overview:**  
 Directed a large-scale migration project to enhance scalability, testing, and deployment consistency.
@@ -408,7 +272,7 @@ Dramatically improved team productivity and code quality through systematic AI i
 
 **Skills:** Leadership · AI Tooling · Remote Team Management · Process Automation · Mentorship · Code Review
 
-### 2024.03 - 2024.10: Beam CI/CD and Tests
+### 2024.03 - 2024.10: CI/CD and Tests
 
 Project Overview: This project focused on establishing a Continuous Integration and Continuous Deployment (CI/CD) pipeline to streamline development and deployment processes.
 
@@ -845,6 +709,21 @@ Successfully transformed an entrepreneurial concept into a rigorous academic pro
 
 **Skills:** TensorFlow · Keras · Google Cloud Vision API · Computer Vision · Machine Learning · Lean Methodology · Team Leadership · Product Research
 
+### 2015.06 - 2015.08: Computer Vision Speed Measurement System
+
+**Project Overview:**
+Developed a computer vision program utilizing advanced multi-integration camera technology to measure the speed of any moving object in real-time.
+
+**Key Contributions:**
+
+- Designed and implemented computer vision algorithms to detect and track moving objects across camera frames.
+- Integrated camera inputs to enable speed calculation using multi-integration camera technology.
+- Implemented calibration to improve the speed calculation accuracy.
+
+**Outcome:** Successfully created a functional system capable of measuring the speed of moving objects using computer vision techniques, demonstrating practical application of image processing and object tracking algorithms.
+
+**Skills:** OpenCV · Computer Vision · Image Processing · Object Tracking · C++ · Real-Time Systems
+
 ### 2015.02 - 2015.05: Teachable Remote Controller
 
 **Project Overview:**
@@ -861,37 +740,3 @@ An independent university project focusing on embedded system design and hardwar
 The final device successfully stored and replayed infrared signals from arbitrary remotes, functioning as a fully programmable universal controller.
 
 **Skills:** Embedded Systems · C Programming · Microcontrollers · Circuit Design · Infrared Communication · Soldering · Hardware Prototyping
-
-## Volunteering
-
-### Invisible University
-
-#### 2019.01 - 2022.01: Chief Executive Officer
-
-#### 2016.06 - 2019.05: Organizational Development Consultant and Team Lead
-
-- Conducted in-depth process analysis to identify and resolve organizational inefficiencies.
-- Proposed strategic improvements to enhance operational effectiveness.
-- Developed and implemented performance metrics to quantify the impact of organizational changes.
-
-#### 2018.09 - 2019.08: Nonviolent Communication Specialist
-
-Offered pro bono training in nonviolent communication (NVC) to young adults, fostering empathetic engagement and conflict resolution.
-
-#### 2018.09 - 2018.11: Gamification Expert
-
-Provided pro bono gamification training to young adults, aiming to engage and motivate through the application of game-design elements in non-game contexts.
-
-#### 2015.09 - 2018.02: Trainer of Trainers
-
-Facilitated comprehensive training programs for the educators at the Invisible University, covering a range of topics including:
-
-- Advanced presentation techniques
-- Effective conversation leadership
-- Strategies for managing challenging interactions
-- Principles of nonviolent communication
-- Constructive feedback methodologies
-
-#### 2014.02 - 2014.11: Time Management Coach
-
-Conducted time management workshops for undergraduate students, focusing on enhancing their organizational skills and productivity.
