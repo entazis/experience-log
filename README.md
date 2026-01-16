@@ -1,6 +1,6 @@
 # Bence Szabó
 
-Tech Lead & Full-Stack Engineer | 7+ Years Building Scalable Systems | Team Leadership & AI-Enhanced Development Workflows
+Tech Lead & Full-Stack Engineer | 8+ Years Building Scalable Systems | Team Leadership & AI-Enhanced Development Workflows
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Tech Lead & Full-Stack Engineer | 7+ Years Building Scalable Systems | Team Lead
 
 ## About
 
-I am a senior software engineer and tech lead with 7+ years of experience building and evolving complex, distributed systems in high-growth environments. My work sits at the intersection of architecture, delivery, and team effectiveness — especially in situations where requirements are unclear, systems are already in motion, and decisions have long-term consequences.
+I am a senior software engineer and tech lead with 8+ years of experience building and evolving complex, distributed systems in high-growth environments. My work sits at the intersection of architecture, delivery, and team effectiveness — especially in situations where requirements are unclear, systems are already in motion, and decisions have long-term consequences.
 
 Over the past years, I have increasingly operated in ambiguous problem spaces: defining technical direction, making explicit trade-offs, and taking ownership of outcomes beyond individual features or services. I focus on reducing unnecessary complexity, establishing strong foundations, and enabling teams to move faster without sacrificing reliability or clarity.
 
