@@ -18,7 +18,7 @@ I am a senior software engineer and tech lead with 8+ years of experience buildi
 
 Over the past years, I have increasingly operated in ambiguous problem spaces: defining technical direction, making explicit trade-offs, and taking ownership of outcomes beyond individual features or services. I focus on reducing unnecessary complexity, establishing strong foundations, and enabling teams to move faster without sacrificing reliability or clarity.
 
-My core strengths are backend systems, DevOps automation, and designing architectures that remain understandable as they scale. I am particularly interested in developer experience, system ergonomics, and using AI-assisted workflows to amplify human judgment rather than replace it
+My core strengths are backend systems, DevOps automation, and designing architectures that remain understandable as they scale. I am particularly interested in developer experience, system ergonomics, and using AI-assisted workflows to amplify human judgment rather than replace it.
 
 ## Experience
 
