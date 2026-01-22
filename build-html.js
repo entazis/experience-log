@@ -226,6 +226,36 @@ function generateHtml() {
         ↑
     </button>
     <script>
+        // Baseline metrics: page visit (best-effort, no PII).
+        (function () {
+            if (typeof window === 'undefined' || typeof fetch !== 'function') {
+                return;
+            }
+            const site = window.location.host;
+            const page = window.location.pathname;
+            const payload = {
+                site,
+                metrics: [
+                    {
+                        name: 'web_page_visits_total',
+                        type: 'counter',
+                        value: 1,
+                        labels: { site, page },
+                        timestamp: Date.now(),
+                    },
+                ],
+                timestamp: Date.now(),
+            };
+            fetch('/api/track', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload),
+                keepalive: true,
+            }).catch(function () {
+                // Ignore all errors (best-effort telemetry).
+            });
+        })();
+        
         // Initialize syntax highlighting
         if (typeof hljs !== 'undefined') {
             hljs.highlightAll();
