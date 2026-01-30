@@ -11,6 +11,8 @@ Tech Lead & Full-Stack Engineer | 8+ Years Building Scalable Systems | Team Lead
 - [How I Work](#how-i-work)
 - [Volunteering](#volunteering)
 - [Projects](#projects)
+  - [Professional Projects](#professional-projects)
+  - [Personal Projects](#personal-projects)
 
 ## About
 
@@ -96,7 +98,7 @@ As a senior engineer, I focused on scaling the platform’s backend architecture
 
 ## Certifications
 
-- AWS Certified Solutions Architect – Associate *(Course Completed, 2024)*
+- AWS Certified Solutions Architect – Associate _(Course Completed, 2024)_
 - Ethical Hacking From Scratch - zSecurity
 - Go: The Complete Developer's Guide
 - Deep Learning & Neural Networks - DeepLearning.AI
@@ -122,7 +124,9 @@ Focused on organizational development, leadership training, communication, and p
 
 ## Projects
 
-### 2025.11 – 2026.01: Core v3.0 Architecture & Permission System
+### Professional Projects
+
+#### 2025.11 – 2026.01: Core v3.0 Architecture & Permission System
 
 **Project Overview:**
 Defined and implemented foundational architectural changes for the next major platform version, focusing on permissions, schema lifecycle, and service boundaries.
@@ -138,7 +142,7 @@ Defined and implemented foundational architectural changes for the next major pl
 
 **Skills:** Architecture Design · Access Control · NestJS · Redis · TypeScript · Strategy Pattern
 
-### 2025.10 – 2025.12: Dynamic Schema Lifecycle & Index Management
+#### 2025.10 – 2025.12: Dynamic Schema Lifecycle & Index Management
 
 **Project Overview:** Reworked how schemas are loaded, validated, indexed, and evolved at runtime across partitions.
 
@@ -153,7 +157,7 @@ Defined and implemented foundational architectural changes for the next major pl
 
 **Skills:** JSON Schema · Dynamic Indexing · Redis · Data Modeling · Testing Automation
 
-### 2025.09 – 2025.11: MCP Server Customization & AI Tooling Integration
+#### 2025.09 – 2025.11: MCP Server Customization & AI Tooling Integration
 
 **Project Overview:** Extended Model Context Protocol (MCP) tooling to better match internal development workflows and system architecture.
 
@@ -168,7 +172,7 @@ Defined and implemented foundational architectural changes for the next major pl
 
 **Skills:** MCP · AI Tooling · API Design · Developer Experience · Automation
 
-### 2025.08 – 2025.10: CI, Testing, and Developer Ergonomics Hardening
+#### 2025.08 – 2025.10: CI, Testing, and Developer Ergonomics Hardening
 
 **Project Overview:** Strengthened development reliability by addressing systemic testing and workflow issues introduced during large-scale migrations.
 
@@ -183,7 +187,7 @@ Defined and implemented foundational architectural changes for the next major pl
 
 **Skills:** CI/CD · Jest · Git Hooks · Developer Tooling · Debugging
 
-### 2025.09: Deployment Protocol & Security Hardening
+#### 2025.09: Deployment Protocol & Security Hardening
 
 Unified all repositories under BeamLive GitHub organization and established robust deployment practices:
 
@@ -195,7 +199,7 @@ Unified all repositories under BeamLive GitHub organization and established robu
 
 **Skills:** DevOps · Security · CI/CD · Release Management · GitHub · Policy Design
 
-### 2025.08: MCP Server Integration
+#### 2025.08: MCP Server Integration
 
 Deployed Model-Context Protocol servers to enable AI agents to interact with core services:
 
@@ -207,7 +211,7 @@ Deployed Model-Context Protocol servers to enable AI agents to interact with cor
 
 **Skills:** AI Agents · MCP · API Integration · Automation · Protocol Design
 
-### 2025.07 - 2025.10: Dynamic Model Loading & Schema Generation
+#### 2025.07 - 2025.10: Dynamic Model Loading & Schema Generation
 
 **Project Overview:**  
 Developed a runtime schema system for Beam’s dynamic data models, unifying metadata and automating schema management.
@@ -223,7 +227,7 @@ Drastically reduced schema maintenance time and improved consistency across serv
 
 **Skills:** JSON Schema · Runtime Validation · NestJS · TypeScript · Automation · Database Indexing · Schema Design · Redis · Metadata Management
 
-### 2025.07 - 2025.09: Monorepo & DevOps Ecosystem
+#### 2025.07 - 2025.09: Monorepo & DevOps Ecosystem
 
 Consolidated 15+ repositories into a single Core Monorepo:
 
@@ -237,7 +241,7 @@ Consolidated 15+ repositories into a single Core Monorepo:
 
 **Skills:** Monorepo · DevOps · Prometheus · AI Agents · NestJS · TypeScript · GitHub Actions · CI/CD
 
-### 2025.03 - 2025.08: v2.2 Migration & System Stabilization
+#### 2025.03 - 2025.08: v2.2 Migration & System Stabilization
 
 **Project Overview:**  
 Directed a large-scale migration project to enhance scalability, testing, and deployment consistency.
@@ -254,7 +258,7 @@ Directed a large-scale migration project to enhance scalability, testing, and de
 
 **Skills:** Microservices · NestJS · Redis · CI/CD · Testing Automation · Integration Testing · Jest
 
-### 2025.02 - 2025.10: AI-Assisted Development & Team Management
+#### 2025.02 - 2025.10: AI-Assisted Development & Team Management
 
 **Project Overview:**  
 Integrated AI tools into daily workflows, enabling automated code review and refactoring.
@@ -272,7 +276,7 @@ Dramatically improved team productivity and code quality through systematic AI i
 
 **Skills:** Leadership · AI Tooling · Remote Team Management · Process Automation · Mentorship · Code Review
 
-### 2024.03 - 2024.10: CI/CD and Tests
+#### 2024.03 - 2024.10: CI/CD and Tests
 
 Project Overview: This project focused on establishing a Continuous Integration and Continuous Deployment (CI/CD) pipeline to streamline development and deployment processes.
 
@@ -295,7 +299,7 @@ By automating these processes and establishing a robust testing framework, the p
 
 **Skills:** Integration Testing · Jest · GitHub · Redis
 
-### 2022.11 - 2024.10: Live 2.2
+#### 2022.11 - 2024.10: Live 2.2
 
 Project Overview: This project involved the comprehensive restructuring and enhancement of a software platform to improve performance, scalability, and developer collaboration. The initiative focused on managing custom client logic through nano-services and transitioning to a more efficient data management system.
 
@@ -323,20 +327,18 @@ Through these efforts, the project not only enhanced the technical infrastructur
 
 **Skills:** NestJS · Redis · TypeScript · Multi-Tenant Management · JSON Schema · B2B2C · Microservices
 
-### 2022.04 - 2024.03: Evolution of Location Service and Geofence Management
+#### 2022.04 - 2024.03: Evolution of Location Service and Geofence Management
 
 The project started with the development of a central location base storage (CLBS) system to manage IoT device location data. Initially, locations were stored as GeoJSON in MongoDB, transmitted via HTTP, and retrieved by clients to display on maps. This setup was inefficient for real-time tracking and lacked advanced geofencing features.
 
 Key Milestones
 
 1. Introduction of Central Location Service
-
    - Locations were stored in Redis with geo hashes for geospatial searches.
    - Data was managed as GeoJSON features, but handling multiple sources was complex and error-prone.
    - Limitations included inefficient queries, lack of polygon support, and absence of real-time geofence event generation.
 
 2. Refactoring for Real-Time Efficiency
-
    - A new service decoupled location processing, improving scalability.
    - RediSearch enabled JSON-based queries with polygon support.
    - Tile38, a specialized geospatial database, was integrated for real-time geofencing, alerts, and MQTT-based triggers.
@@ -358,7 +360,7 @@ This evolution transformed the location service into a robust, real-time solutio
 
 **Skills:** Node.js · NestJS · Redis · Tile38 · Geofencing · MQTT · GeoJSON
 
-### 2023.11 - 2024.01: Horizontal Scaling
+#### 2023.11 - 2024.01: Horizontal Scaling
 
 Project Overview: This project aimed to enhance the scalability of services through horizontal scaling, achieved in two main phases with distinct approaches.
 
@@ -377,7 +379,7 @@ Second Version - The second phase simplified the architecture by:
 
 **Skills:** Message Queue · MQTT · Load Balancing
 
-### 2023.04 - 2023.07: Client Code Reduction
+#### 2023.04 - 2023.07: Client Code Reduction
 
 Project Overview: This project aimed to standardize the programming language across all services to enhance efficiency and maintainability. Initially, various services were written in plain JavaScript, which led to inconsistent data structures and interfaces.
 
@@ -387,7 +389,7 @@ Migration to React Native: Given budget constraints, which precluded hiring sepa
 
 **Skills:** React · npm · JavaScript · TypeScript
 
-### 2023.01 - 2023.06: Programmable Admin Platform
+#### 2023.01 - 2023.06: Programmable Admin Platform
 
 Project Summary:
 
@@ -401,7 +403,7 @@ Project Summary:
 
 **Skills:** React · Redis · MQTT · TypeScript · NestJS
 
-### 2022.08 - 2023.02: Nano-Service Engine and Editor
+#### 2022.08 - 2023.02: Nano-Service Engine and Editor
 
 Project Overview: The project focuses on improving the workflow development strategy for Beam, a platform designed to enable cooperation between organizations, users, and IoT devices within a B2B2C model. Beam aims to provide core services through a chat-based application, leveraging business logic to connect various stakeholders. However, there are challenges and critiques around the previous workflow design, primarily concerning its understandability and effectiveness for developers.
 
@@ -422,7 +424,7 @@ Achievements and Future Proposals:
 
 **Skills:** Microservices · NestJS · Redis · TypeScript
 
-### 2021.11 - 2022.11: Live 2.0
+#### 2021.11 - 2022.11: Live 2.0
 
 Refactoring and Modularization: The project began by separating the responsibilities of each microservice to ensure efficient and scalable development. Responsibilities were divided so that each database was accessed and managed by a single service, removing global database queries. Additionally, the logical layers within each microservice were separated into controller, service, core, and database layers.
 
@@ -434,7 +436,7 @@ Server-Side and Backend Improvements: The server-side development was powered by
 
 **Skills:** Microservices · TypeORM · NestJS · Node.js · React · PostgreSQL · TypeScript
 
-### 2021.09 - 2022.09: Scalable Multi-Tenant Service for a B2B2C Company
+#### 2021.09 - 2022.09: Scalable Multi-Tenant Service for a B2B2C Company
 
 The project addressed a critical scalability issue in a B2B2C company, which initially created a separate repository for every customer. This approach led to exponential increases in development, maintenance, and deployment times, making it unsustainable.
 
@@ -470,7 +472,7 @@ The project delivered a scalable, efficient multi-tenant architecture, dramatica
 
 **Skills:** NestJS · MQTT · Microservices · Multi-Tenant Management · TypeScript · Redis · PostgreSQL
 
-### 2021.11 - 2022.06: Central User Database
+#### 2021.11 - 2022.06: Central User Database
 
 Project Overview: This project aimed to address the issues of data redundancy and disorganization in the previous system. The original setup suffered from inefficient storage utilization due to multiple databases managed by different services, which were not coherently designed. To resolve these issues, the project focused on restructuring the user data architecture and transitioning from MongoDB to PostgreSQL, and eventually to Redis, for enhanced efficiency.
 
@@ -480,7 +482,7 @@ Technical Evolution: The project explored moving core business logic into SQL em
 
 **Skills:** TypeORM · NestJS · Node.js · PostgreSQL · SQL · REST APIs
 
-### 2022.01 - 2022.04: Core Packages
+#### 2022.01 - 2022.04: Core Packages
 
 Project Overview: This project aimed to eliminate code duplication and improve scalability by restructuring the product into packages. Initially, the product contained significant code redundancy, with separate repositories created for each customer, which complicated maintenance and hindered scalability.
 
@@ -494,7 +496,7 @@ By refactoring the product into well-defined packages and introducing microservi
 
 **Skills:** React · Angular · NestJS · TypeScript · npm
 
-### 2020.08 - 2021.03: Admin Platform
+#### 2020.08 - 2021.03: Admin Platform
 
 Project Overview: The project revolves around the software development and refinement of an administrative platform initially developed at a rapid pace. This swift development necessitated a comprehensive phase of debugging and refinement to ensure system stability and functionality. Alongside this, customer-driven enhancements were identified and integrated into the existing system to meet user needs and expectations.
 
@@ -506,13 +508,13 @@ Project Outcomes: This structured approach to refining and enhancing the adminis
 
 **Skills:** NestJS · MongoDB · Node.js · Angular · REST APIs · React.js
 
-### 2019.03 - 2020.08: [Google Ads Exporter](https://github.com/entazis/google-ads-exporter)
+#### 2019.03 - 2020.08: [Google Ads Exporter](https://github.com/entazis/google-ads-exporter)
 
 The company required a consolidated view of its advertising campaign performance, encompassing both the expenditure and conversion metrics. To facilitate this, developed a Google Script that executes on a scheduled basis—daily, weekly, or monthly—on ads.google.com. This script is designed to aggregate the pertinent data regarding ad campaigns and systematically record it into a designated Google Sheet.
 
 **Skills:** Google Ads · Data Analytics · Google Apps Script · JavaScript
 
-### 2019.11 - 2019.12: [Landing page for a customer](https://github.com/entazis/sypico-landing)
+#### 2019.11 - 2019.12: [Landing page for a customer](https://github.com/entazis/sypico-landing)
 
 Developed a modern, responsive landing page for a client, implementing custom design requirements and ensuring cross-browser compatibility.
 
@@ -521,7 +523,7 @@ Delivered a fully functional, visually appealing landing page that improved clie
 
 **Skills:** React · Node.js · JavaScript · CSS · HTML
 
-### 2019.09 - 2019.10: [Optimizing the website of a customer](https://github.com/entazis/robotmaster-next)
+#### 2019.09 - 2019.10: [Optimizing the website of a customer](https://github.com/entazis/robotmaster-next)
 
 Project Overview: This project aimed to improve the efficiency and performance of a customer's site by addressing issues with server-side rendering (SSR) React technology.
 
@@ -536,7 +538,7 @@ By resolving the initial misconfiguration and leveraging Next.js for static rend
 
 **Skills:** Next.js
 
-### 2019.01 - 2019.07: [Landing Page of Programming School](https://github.com/entazis/landing-page-v2)
+#### 2019.01 - 2019.07: [Landing Page of Programming School](https://github.com/entazis/landing-page-v2)
 
 Project Objective:
 The aim was to transition from a WordPress platform to a proprietary application. A designer had laid the groundwork with the creation of fundamental HTML, CSS, and JavaScript files to establish the visual design, along with minimal server-side logic for page rendering.
@@ -546,7 +548,7 @@ Successfully migrated all existing functionalities from the legacy site to the n
 
 **Skills:** Node.js · JavaScript · A/B Testing · CSS · HTML
 
-### 2019.04 - 2019.06: [Automatic Email Reports (triggers)](https://github.com/entazis/email-triggers)
+#### 2019.04 - 2019.06: [Automatic Email Reports (triggers)](https://github.com/entazis/email-triggers)
 
 Project Synopsis:
 The company aimed to engage users by sending automated reminders to encourage product usage, specifically for ongoing learning activities. The strategy involved dispatching tailored reports on a weekly basis, as well as reports reflecting the user's activities from the previous day and from a week prior.
@@ -556,7 +558,7 @@ Developed the server-side logic required to support this engagement initiative, 
 
 **Skills:** MongoDB · Node.js · JavaScript
 
-### 2019.03 - 2019.04: [Facebook Ads Exporter](https://github.com/entazis/facebook-ads-exporter)
+#### 2019.03 - 2019.04: [Facebook Ads Exporter](https://github.com/entazis/facebook-ads-exporter)
 
 Project Overview:
 The objective was to replicate the functionality of a Google Ads data exporter, with the focus shifted to extracting data from Facebook Ads. The end goal was to achieve a similar output format in the spreadsheet as that of the Google Ads exporter.
@@ -566,7 +568,7 @@ Identified an open-source tool that aligned closely with our requirements. After
 
 **Skills:** Data Analytics · Google Apps Script · Facebook Ads · Google Sheets
 
-### 2019.03 - 2019.04: Google Analytics Dashboard
+#### 2019.03 - 2019.04: Google Analytics Dashboard
 
 Project Summary:
 The company possessed a wealth of data that was underutilized. The role was to organize this data effectively, enabling the company to harness it for informed decision-making processes.
@@ -576,7 +578,7 @@ Established a Google Analytics account to systematically gather pertinent data. 
 
 **Skills:** Data Analytics · Data Science
 
-### 2019.01 - 2019.03: [Badges (gamification)](https://github.com/entazis/badges-module)
+#### 2019.01 - 2019.03: [Badges (gamification)](https://github.com/entazis/badges-module)
 
 Project Context:
 The company aimed to enhance user engagement within their application by introducing a gamification feature. They decided to implement a badge system as the initial step towards this goal. The visual assets and designs for the badges were pre-defined and provided.
@@ -586,7 +588,7 @@ Primary focus was on developing the server-side logic responsible for the criter
 
 **Skills:** API Development · MongoDB · Node.js · JavaScript · REST APIs
 
-### 2018.11 - 2019.02: Payment Page of Programming School
+#### 2018.11 - 2019.02: Payment Page of Programming School
 
 The company aimed to transition from its existing multi-page payment system to a streamlined one-page application. This initiative was part of an effort to modernize the user interface in line with a new design provided by a professional designer.
 
@@ -601,7 +603,7 @@ The project was successfully executed, resulting in a functional and aesthetical
 
 **Skills:** Node.js · JavaScript · REST APIs
 
-### 2018.07 - 2018.08: Growth Dashboard (AARRR metrics)
+#### 2018.07 - 2018.08: Growth Dashboard (AARRR metrics)
 
 Project Contribution: Data Visualization Developer
 
@@ -617,7 +619,7 @@ The successful implementation of this dashboard has empowered the company with a
 
 **Skills:** Data Analytics · Python · Google Analytics
 
-### 2018.07 - 2018.07: [Power Plant Dropout Web Scraper](https://github.com/entazis/power-plant-dropout-scraper)
+#### 2018.07 - 2018.07: [Power Plant Dropout Web Scraper](https://github.com/entazis/power-plant-dropout-scraper)
 
 Project Objective:
 The company aimed to develop an application capable of monitoring power plant dropouts and notifying users promptly upon their occurrence.
@@ -627,7 +629,7 @@ Responsible for designing and implementing the web scraping component of the pro
 
 **Skills:** Python · Git
 
-### 2018.07 - 2018.07: [Weather Service Data Fix](https://github.com/entazis/weather-service-data-fix)
+#### 2018.07 - 2018.07: [Weather Service Data Fix](https://github.com/entazis/weather-service-data-fix)
 
 Project Challenge:
 The company faced issues with incomplete weather data collection from various locations, leading to system disruptions due to missing timestamps.
@@ -637,7 +639,7 @@ Developed a script designed to address the data gaps by filling them with estima
 
 **Skills:** Python · Git
 
-### 2018.01 - 2018.02: [Automatic Slack Registration](https://github.com/entazis/automatic-slack-registration)
+#### 2018.01 - 2018.02: [Automatic Slack Registration](https://github.com/entazis/automatic-slack-registration)
 
 Project Objective:
 The online programming school sought to expand its Slack-based community by simplifying the registration process. The goal was to eliminate the need for users to navigate a lengthy and unfamiliar form-filling procedure.
@@ -647,7 +649,7 @@ Developed a Node.js application utilizing Puppeteer, a headless browser automati
 
 **Skills:** Node.js · Git · Slack
 
-### 2017.06 - 2018.01: [Customer Churn Prediction](https://github.com/entazis/churnacle-node)
+#### 2017.06 - 2018.01: [Customer Churn Prediction](https://github.com/entazis/churnacle-node)
 
 Project Goal:
 CodeBerry Programming School required a predictive system to identify users at risk of churning, enabling proactive engagement to retain them.
@@ -668,7 +670,7 @@ The project delivered a functional predictive system that provided actionable in
 
 **Skills:** Deep Learning · Artificial Intelligence (AI) · Machine Learning · R · Docker
 
-### 2017.12 - 2018.01: [Rapstar](https://github.com/entazis/rapstar-project) - Generating hip-hop lyrics using neural networks
+#### 2017.12 - 2018.01: [Rapstar](https://github.com/entazis/rapstar-project) - Generating hip-hop lyrics using neural networks
 
 Project Description:
 Personal endeavor during university years to create an autonomous rap lyricist. Inspired by a Multi-layer Recurrent Neural Networks (RNN) project discovered on GitHub, the goal was to train a neural network to generate hip-hop lyrics independently.
@@ -679,7 +681,7 @@ Developed a web scraper to collect a substantial corpus of Hungarian hip-hop lyr
 **Outcome:**
 The project's end result was a rap-bot that produced text resembling coherent Hungarian lyrics, although the content lacked a meaningful sense. It became evident that achieving the creation of authentic and intelligent lyrics would require a more extensive dataset and prolonged training period.
 
-### 2016.09 - 2017.06: Smart Retail Product Recognition System
+#### 2016.09 - 2017.06: Smart Retail Product Recognition System
 
 **Project Overview:**
 Budapest University of Technology and Economics – Diploma Thesis and Startup Initiative
@@ -709,7 +711,7 @@ Successfully transformed an entrepreneurial concept into a rigorous academic pro
 
 **Skills:** TensorFlow · Keras · Google Cloud Vision API · Computer Vision · Machine Learning · Lean Methodology · Team Leadership · Product Research
 
-### 2015.06 - 2015.08: Computer Vision Speed Measurement System
+#### 2015.06 - 2015.08: Computer Vision Speed Measurement System
 
 **Project Overview:**
 Developed a computer vision program utilizing advanced multi-integration camera technology to measure the speed of any moving object in real-time.
@@ -724,7 +726,7 @@ Developed a computer vision program utilizing advanced multi-integration camera 
 
 **Skills:** OpenCV · Computer Vision · Image Processing · Object Tracking · C++ · Real-Time Systems
 
-### 2015.02 - 2015.05: Teachable Remote Controller
+#### 2015.02 - 2015.05: Teachable Remote Controller
 
 **Project Overview:**
 An independent university project focusing on embedded system design and hardware–software integration. The goal was to create a programmable remote controller capable of learning and reproducing infrared signals from other remotes.
@@ -740,3 +742,88 @@ An independent university project focusing on embedded system design and hardwar
 The final device successfully stored and replayed infrared signals from arbitrary remotes, functioning as a fully programmable universal controller.
 
 **Skills:** Embedded Systems · C Programming · Microcontrollers · Circuit Design · Infrared Communication · Soldering · Hardware Prototyping
+
+### Personal Projects
+
+#### 2025: Snake Game (AI-assisted) — Mobile-first, swipe-controlled web game
+
+**Project Overview:** Built and polished a modern Snake game as an experiment in AI-assisted UI development, focusing on production-grade responsiveness and mobile usability.
+
+**Key Contributions:**
+
+- Prototyped in parallel with Cursor and Lovable, then continued refinement in Cursor.
+- Fixed responsiveness edge cases that caused layout/UI crashes on certain screen sizes.
+- Implemented touch swipe controls to make the game playable on mobile.
+- Used Chrome DevTools MCP-based workflows to identify and eliminate console/runtime issues during iterations.
+
+**Outcome:** A stable, playable game on desktop and mobile with a polished UI and reliable responsiveness.
+
+**Links:** Live: https://snake.entazis.dev/ · Repo: https://github.com/entazis/snake-game
+
+#### 2025: Flowmodoro — Spec-first timer app I use daily
+
+**Project Overview:** Designed and built a personal productivity timer based on the Flowmodoro technique, starting from a written specification and iterating toward a tool I actually use every day.
+
+**Key Contributions:**
+
+- Wrote and committed a project specification (overview, features, tech stack, implementation notes) before implementation.
+- Generated an initial version with Lovable, then iterated in Cursor to improve code quality and UX.
+- Added theme management, sound effects, and fixes for timer display and edge cases.
+
+**Outcome:** Replaced off-the-shelf timer apps for my workflow; maintained through real daily usage.
+
+**Links:** Repo: https://github.com/entazis/flowmodoro
+
+#### 2025: Portfolio Website — Iterative, spec-driven, AI-assisted frontend shipping
+
+**Project Overview:** Built and rebuilt my portfolio website through multiple iterations, using spec-driven development and AI-assisted tooling while keeping a strong focus on layout quality and maintainability.
+
+**Key Contributions:**
+
+- Ran multiple iterations (Bolt.new, Cursor-driven rebuild, Lovable-generated version) and selected the best outcome based on UI quality and maintainability.
+- Treated specifications as versioned artifacts (metadata, project overview, feature/task docs) and used them to guide implementation.
+- Refactored and enhanced the chosen version: content, features, responsiveness, and code structure.
+
+**Outcome:** A production portfolio site with an intentionally designed workflow for iterating quickly without losing clarity.
+
+**Links:** Live: https://entazis.dev/ · Repo: https://github.com/entazis/portfolio
+
+#### 2026: Blog — Next.js + static generation over Vite-only constraints
+
+**Project Overview:** Built a blog with an emphasis on SEO and static rendering, using AI-assisted planning and implementation while keeping ownership of technical decisions and trade-offs.
+
+**Key Contributions:**
+
+- Chose Next.js with static generation to avoid client-only rendering limitations and improve SEO.
+- Combined strengths of multiple AI tools: used one approach for completeness and another for visual style.
+
+**Outcome:** A structured content platform optimized for publishing and discoverability.
+
+**Links:** Repo: https://github.com/entazis/blog
+
+#### 2025: Wedding Website — Shipping a real product with privacy constraints
+
+**Project Overview:** Built a wedding website with real stakeholder requirements, focusing on a clean UX, responsiveness, and a practical RSVP workflow.
+
+**Key Contributions:**
+
+- Specified layout and content requirements up front, then iterated on an AI-generated starting point.
+- Removed vendor branding, updated content, improved typography/themes, and ensured responsive behavior across screen sizes.
+- Added Google Sheets integration for RSVP submissions.
+
+**Outcome:** A functional event website with a reliable RSVP flow, delivered under real-world constraints.
+
+**Links:** Repo: https://github.com/entazis/wedding-website
+
+#### 2025: Personal Monitoring (Prometheus + Grafana) — Observability for my sites
+
+**Project Overview:** Set up monitoring to understand how my websites behave in production and to build practical intuition for observability.
+
+**Key Contributions:**
+
+- Learned Prometheus and Grafana with AI-assisted guidance and applied best practices for what to measure.
+- Instrumented apps and debugged data-collection issues end-to-end (from metric emission to dashboard visibility).
+
+**Outcome:** A working monitoring setup that turns “how is it doing?” into measurable signals.
+
+**Links:** Related config: https://github.com/entazis/portfolio (see `apps/monitoring/`)
